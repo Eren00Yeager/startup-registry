@@ -1,0 +1,836 @@
+{
+    "Sheet1":[
+     {
+      "Name": "Jupiter",
+      "Sector": "Fintech",
+      "Stage of Funding": "$ 86 M Series C; $711 M",
+      "Short brief": "Jupiter is a digital banking app with one simple aim – to deliver a banking experience that keeps pace with you. We help you cut through the banking jargon, offer smart insights based on your spending, and provide you with a range of new-age features to enable you to make sense of your finances.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/jupiter-money?originalSubdomain=in",
+      "Website": "https:\/\/jupiter.money\/",
+      "Valuation": 1
+     },
+     {
+      "Name": "Ather",
+      "Sector": "EV",
+      "Stage of Funding": "$128 M Series E;  $400 M",
+      "Short brief": "Ather Energy was started in 2013 by Tarun Mehta and Swapnil Jain, two engineering graduates straight out of college with the audacity to dream and challenge the well-established Internal Combustion Engine (ICE) and replacing it with an electric drive. \nAther is one of the few start-ups in India, specifically within the automotive industry, to have products &amp; services that are an amalgamation of clean design &amp; engineering - Hardware &amp; Software.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/ather-energy\/?originalSubdomain=in",
+      "Website": "https:\/\/www.atherenergy.com\/",
+      "Valuation": 2
+     },
+     {
+      "Name": "Slice",
+      "Sector": "Fintech",
+      "Stage of Funding": " $ 86 M Series C; $1.5 B",
+      "Short brief": "Slice is a Bengaluru-based payment and credit startup that extends hassle-free payment cards to deal with your daily payments, which can also be converted into Equated Monthly Installments or EMIs for the ease of the user without any added expense.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/sliceit\/",
+      "Website": "https:\/\/www.sliceit.com\/",
+      "Valuation": 3
+     },
+     {
+      "Name": "UpStox",
+      "Sector": "Fintech",
+      "Stage of Funding": "$25 M Series C; $ 3.4 B",
+      "Short brief": "Upstox is an online investment brand of RKSV Securities. Incorporated in 2009, RKSV is a Mumbai, India based SEBI registered financial service provider. RKSV offers online stock trading, commodity trading, currency derivatives trading, mutual funds, and demat account. RKSV Sec is a member of NSE, BSE, MCX, NCDEX, NSDL, and CDSL. Upstox offers a fast, reliable &amp; easy-to-use trading platform for traders in Indian stock market.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/upstox\/?originalSubdomain=in",
+      "Website": "https:\/\/upstox.com\/",
+      "Valuation": 4
+     },
+     {
+      "Name": "Multipl",
+      "Sector": "Fintech",
+      "Stage of Funding": "$ 3 M Pre-series A",
+      "Short brief": "Multipl rewards its users for saving for future expenses by encouraging conscientious consumption and discourages users from making purchases on credit that can strain their finances.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/multiplapp\/",
+      "Website": "https:\/\/multipl.xyz\/",
+      "Valuation": 5
+     },
+     {
+      "Name": "Bounce",
+      "Sector": "EV",
+      "Stage of Funding": "$ 105 M Series D",
+      "Short brief": "Bounce is a smart mobility solution company, with a mission of manufacturing electric two-wheeler vehicle company with removable battery \/ swapping technology.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/bounceshare\/?originalSubdomain=in",
+      "Website": "https:\/\/www.bounceshare.com\/",
+      "Valuation": 6
+     },
+     {
+      "Name": "VakilSearch",
+      "Sector": "LegalTech",
+      "Stage of Funding": "$10 M Series B,",
+      "Short brief": "Vakilsearch is a technology-driven platform, offering services that cover the legal needs of startups and established businesses. Some of their services include incorporation, government registrations &amp; filings, accounting, documentation and annual compliances. In addition, they offer a wide range of services to individuals, such as property agreements and tax filings.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/vakilsearch-com\/",
+      "Website": "https:\/\/vakilsearch.com\/",
+      "Valuation": 7
+     },
+     {
+      "Name": "Glamyo Health",
+      "Sector": "Healthtech",
+      "Stage of Funding": "$3M Series A,",
+      "Short brief": "Glamyo Health is a healthcare brand operating in the fields of elective and cosmetic surgeries, with a chain of hospitals and clinics operating in 1 lakhs+ happy patients, 40+ cities, and working with 500+ hospitals and 400+ surgeons across India.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/glamyo\/?originalSubdomain=in",
+      "Website": "https:\/\/glamyohealth.in\/",
+      "Valuation": 8
+     },
+     {
+      "Name": "Toothsi",
+      "Sector": "Healthtech",
+      "Stage of Funding": "$ 40 M Series C, ",
+      "Short brief": "Provider of dental care services intended to offer clear aligners that are invisible, comfortable, and affordable.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/toothsi\/?originalSubdomain=in",
+      "Website": "https:\/\/toothsi.in\/",
+      "Valuation": 9
+     },
+     {
+      "Name": "Toplyne",
+      "Sector": "SaaS Sales",
+      "Stage of Funding": "$ 15 M Series A",
+      "Short brief": "Toplyne helps sales teams at product-led companies convert their freemium users. Toplyne is a plug-and-play platform that enables sales teams at PLG (product-led growth) companies to identify and focus on the users and accounts most likely to convert.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/toplynehq\/?originalSubdomain=in",
+      "Website": "https:\/\/www.toplyne.io\/",
+      "Valuation": 10
+     },
+     {
+      "Name": "Absolute Foods",
+      "Sector": "Bioscience, Agritech",
+      "Stage of Funding": "$ 100 M, Series B, $500 M",
+      "Short brief": "Absolute Foods is a food production and agriculture company. Absolute Foods' OS actionable insights based on inputs from the likes of sensors, satellite feeds, and others to the farmers for optimal growing conditions throughout the crop cycle.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/absolutefoods\/?originalSubdomain=in",
+      "Website": "https:\/\/www.absolutefoods.com\/",
+      "Valuation": 11
+     },
+     {
+      "Name": "Dezerv",
+      "Sector": "Fintech",
+      "Stage of Funding": "$ 7 M, Seed",
+      "Short brief": "dezerv. aims to give successful professionals access to high quality investing expertise which has been the unfair advantage of the ultra-wealthy. The invite-only wealthtech platform combines domain expertise and cutting edge tech to create high-performing long term portfolios and also provides exclusive investment opportunities for their members.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/dezerv-in\/?originalSubdomain=in",
+      "Website": "https:\/\/www.dezerv.in\/",
+      "Valuation": 12
+     },
+     {
+      "Name": "Inflection IO",
+      "Sector": "B2B Marketing",
+      "Stage of Funding": "$ 5 M, Seed",
+      "Short brief": "Inflection.io is a venture-backed product company that builds marketing technology to power product-led growth.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/inflection-io\/?originalSubdomain=in",
+      "Website": "https:\/\/www.inflection.io\/",
+      "Valuation": 13
+     },
+     {
+      "Name": "Smytten",
+      "Sector": "Consumer",
+      "Stage of Funding": "$ 15 M Series B",
+      "Short brief": "Smytten is a platform that offers discovery, trials and purchase of lifestyle brands across multiple categories like beauty and grooming, food and beverages, health and wellness and fragrances, among others. Smytten's business model involves partnering with premium and luxury brands to provide them with a targeted sampling strategy in India.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/smytten\/?originalSubdomain=in",
+      "Website": "https:\/\/smytten.com\/home",
+      "Valuation": 14
+     },
+     {
+      "Name": "GreyOrange",
+      "Sector": "Robotics",
+      "Stage of Funding": "$110 M Series D",
+      "Short brief": "GreyOrange is a global technology company unifying AI-driven software and mobile robotics to modernize order fulfillment and optimize warehouse operations in real time. GreyOrange is a technology startup creating artificial intelligence-driven software and AI-driven mobile robots for warehousing industry.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/gogreyorange\/",
+      "Website": "https:\/\/www.greyorange.com\/",
+      "Valuation": 15
+     },
+     {
+      "Name": "Fashinza",
+      "Sector": "B2B Supply Chain",
+      "Stage of Funding": "$100 M Series B, $ 300 M",
+      "Short brief": "Fashinza is a B2B manufacturing marketplace that solves apparel\/fashion supply chain challenges by connecting fashion brands to experienced manufacturers.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/fashinza\/",
+      "Website": "https:\/\/fashinza.com\/?utm_source=google&amp;utm_medium=brand_search&amp;utm_campaign=brand-search-india-2022",
+      "Valuation": 16
+     },
+     {
+      "Name": "Frontrow",
+      "Sector": "EdTech",
+      "Stage of Funding": "$14 M Series A, $60 M",
+      "Short brief": "FrontRow is a learning and community platform focused on creative arts and sports that enables everyone to pursue their passions. FrontRow offers classes taught by celebrities in fields such as music, cricket or comedy, paired with a community platform that gives learners regular activities, competitions and peer engagement to practice and showcase their talent.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/frontrow-in\/?originalSubdomain=in",
+      "Website": "https:\/\/frontrow.co.in\/",
+      "Valuation": 17
+     },
+     {
+      "Name": "MoEngage",
+      "Sector": "B2B, Customer Engage",
+      "Stage of Funding": "$ 77 M Series E, $700 M",
+      "Short brief": "MoEngage is an internet company that features cloud-based marketing services for consumer businesses. It helps companies on campaigns across channels such as in-app messaging, web, and SMS providing machine learning for optimization of customer engagement. The company was founded in 2014 and is headquartered in San Francisco, California",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/moengage\/?originalSubdomain=in",
+      "Website": "https:\/\/www.moengage.com\/",
+      "Valuation": 18
+     },
+     {
+      "Name": "Doceree",
+      "Sector": "Healthtech",
+      "Stage of Funding": "$11 M Series A,",
+      "Short brief": null,
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/doceree\/?originalSubdomain=in",
+      "Website": "https:\/\/doceree.com\/in\/",
+      "Valuation": 19
+     },
+     {
+      "Name": "Digit",
+      "Sector": "Insurtech",
+      "Stage of Funding": "$ 54M, $4 B",
+      "Short brief": "Digit Insurance is a tech-driven insurance startup based in Bengaluru, India. The company seeks to build simple and transparent solutions, focusing on car, travel, mobile, jewelry, and bicycle insurance. Digit Insurance was founded in 2006 and is based in Bengaluru, India.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/godigit\/?originalSubdomain=in",
+      "Website": "https:\/\/www.godigit.com\/",
+      "Valuation": 20
+     },
+     {
+      "Name": "Waycool",
+      "Sector": "Agricommerce",
+      "Stage of Funding": "$ 117 M Series D, $460 M",
+      "Short brief": "WayCool Foods is India’s largest and fastest-growing agri-commerce company. Focusing on food development and distribution, the company leverages innovative technology to scale and operate a complex supply chain from soil to sale.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/waycoolfoods\/?originalSubdomain=in",
+      "Website": "https:\/\/waycool.in\/",
+      "Valuation": 21
+     },
+     {
+      "Name": "Rocketlane",
+      "Sector": "SaaS",
+      "Stage of Funding": "$ 18 M Series A",
+      "Short brief": "Rocketlane is a customer onboarding software that lets you collaborate with customers, consistently hit your onboarding goals, and accelerate time-to-value.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/rocketlane\/",
+      "Website": "https:\/\/www.rocketlane.com\/",
+      "Valuation": 22
+     },
+     {
+      "Name": "Recykal",
+      "Sector": "B2B Waste Management",
+      "Stage of Funding": "$ 22 M ",
+      "Short brief": "Recykal is a digital technology company powering a marketplace, building Saas, cloud based solutions for Waste management, recycling industry.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/teamrecykal\/?originalSubdomain=in",
+      "Website": "https:\/\/recykal.com\/",
+      "Valuation": 23
+     },
+     {
+      "Name": "Evage",
+      "Sector": "EV",
+      "Stage of Funding": "$ 28 M Seed",
+      "Short brief": "EVage is electrifying India's logistics sector through our indigenously designed, and emissions-free electric commercial vehicles.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/evage-ventures-pvt-ltd\/?originalSubdomain=in",
+      "Website": "https:\/\/www.evage.in\/",
+      "Valuation": 24
+     },
+     {
+      "Name": "Zorro",
+      "Sector": "Social Network",
+      "Stage of Funding": "$ 3.2 M Seed",
+      "Short brief": "Zorro is an early stage startup. It is a platform that empowers individuals to share their true experiences with the community.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/joinzorro\/?originalSubdomain=in",
+      "Website": "https:\/\/www.joinzorro.com\/",
+      "Valuation": 25
+     },
+     {
+      "Name": "Hasura",
+      "Sector": "SaaS",
+      "Stage of Funding": "$100 M Series C; $ 1 B",
+      "Short brief": "Hasura makes software to simplify and accelerate application development. The Hasura GraphQL Engine gives you instant, realtime, high-performance GraphQL on any Postgres application, existing or new. It also includes an event trigger system to help you build serverless apps.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/hasura\/?originalSubdomain=in",
+      "Website": "https:\/\/hasura.io\/",
+      "Valuation": 26
+     },
+     {
+      "Name": "Altigreen",
+      "Sector": "EV",
+      "Stage of Funding": "$40 M Series A",
+      "Short brief": "Altigreen is a leader in Electric Vehicle (EV) technology and solutions for Last Mile Transportation (LMT) through 2, 3 and 4 wheeled vehicles for commercial use. Altigreen’s technology is specifically designed for Indian environmental and commercial conditions.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/altigreen-propulsion-labs\/?originalSubdomain=in",
+      "Website": "https:\/\/altigreen.com\/",
+      "Valuation": 27
+     },
+     {
+      "Name": "Kenko Health",
+      "Sector": "Healthtech",
+      "Stage of Funding": "$12 M Series A",
+      "Short brief": "The company engages health-related digital financing services with specialized membership plans for diabetic patients, senior citizens as well as the general public that includes purchasing prescribed medicines and drugs, paying medical bills, treatment, and other expenses, thus making healthcare affordable for anyone.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/kenko-health\/?originalSubdomain=in",
+      "Website": "https:\/\/www.kenkohealth.in\/",
+      "Valuation": 28
+     },
+     {
+      "Name": "Chargebee",
+      "Sector": "SaaS",
+      "Stage of Funding": "$250 M Series H, $ 3.5 B",
+      "Short brief": "Chargebee is a recurring billing and subscription management tool that helps SaaS and SaaS-like businesses streamline Revenue Operations.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/chargebee\/?originalSubdomain=in",
+      "Website": "https:\/\/www.chargebee.com\/",
+      "Valuation": 29
+     },
+     {
+      "Name": "Niyo",
+      "Sector": "Fintech",
+      "Stage of Funding": "$100 M Series C,",
+      "Short brief": "NIYO is a Bengaluru based fintech startup that offers digital banking solutions such as prepaid payroll cards, cross-border travel payment debit cards and multi-wallet tax benefit cards to customers.",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/niyosolutions\/?originalSubdomain=in",
+      "Website": "https:\/\/www.goniyo.com\/",
+      "Valuation": 30
+     }
+    ],
+    "Sheet2":[
+     {
+      "Name": "DocsApp",
+      "Sector": "Health-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "DocsApp is India's #1 Doctor Consultation App, with over 10 million users across India, 3000+ MD specialist Doctors. Patients can also get lab tests and medicines delivered at home seamlessly through the app after the doctor consultation.",
+      "Website": "http:\/\/www.docsapp.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/docsapp\/"
+     },
+     {
+      "Name": "Hyperverge Inc",
+      "Sector": "AI",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "HyperVerge is a Silicon Valley based Artificial Intelligence (AI) company. Deep learning networks built by Hyperverge are powering applications for large enterprise clients in Financial Services, Telecom, Energy, Security and Defence. Their Hyperverge Fintech platform is powering 38 million customers per month. ",
+      "Website": "https:\/\/www.hyperverge.co\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/hyperverge-inc-\/"
+     },
+     {
+      "Name": "Detect Technologies",
+      "Sector": "Automation Machinery Manufacturing",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "A holistic solution to the inspection needs of energy sector focusing mainly on the pipeline integrity management. DeTect offers two products:\nGUMPS: A sensor to monitor pipeline thickness change in real time with the help of machine learning algorithms and operates at temperatures of up to 300 degree Celsius.\nNOCTUA: An industrial drone, tailor-made for process industry inspections, conducts automated visual and thermal inspection of industrial infrastructures and significantly reduces maintenance &amp; inspection efforts including scaffoldings, etc..",
+      "Website": "https:\/\/detecttechnologies.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/detect-technologies\/?originalSubdomain=in"
+     },
+     {
+      "Name": "Agnikul Cosmos",
+      "Sector": "Defense and Space Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Designing, building, testing and launching orbital class launch vehicles that can take up to 100 kgs to Low Earth Orbits. First product - a 3 stage vehicle that burns Kerosene in liquid oxygen. It has a clustered modular configuration where each stage is comprised of engines that can be almost completely additively manufactured. ",
+      "Website": "https:\/\/www.agnikul.in\/#\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/agnikul-cosmos\/"
+     },
+     {
+      "Name": "The ePlane Company",
+      "Sector": "Aviation and Aerospace Component Manufacturing",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Building new hybrid (fixed wing + rotors) aerial vehicles for transforming urban transportation by moving goods and people by air. First Product - \"Ek Hanz\", an electric autonomous hybrid aerial vehicle with 100 km range carrying a payload of 2 kg (40 km with 6 kg) with vertical take-off capabilities. ",
+      "Website": "https:\/\/www.eplane.ai\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/the-eplane-company\/"
+     },
+     {
+      "Name": "GUVI",
+      "Sector": "Ed-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Online skill acceleration &amp; activity based recruitment platform. It is an integrated Edu-Tech Platform for learning: Technical video courses, Technology Skills like Python, Machine Learning and Java in vernacular languages such as Tamil, Telugu, Kannada, Hindi and Bengali, among others.",
+      "Website": "https:\/\/www.guvi.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/guviofficial\/?originalSubdomain=in"
+     },
+     {
+      "Name": "Simpl",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Simpl is a consumer experience platform providing a full-stack solution for e-commerce conversion. It enables merchants to give customers 1-tap checkout, buyer protection, and a pay-later facility to allow them to feel safe and trusted when shopping online. Through Simpl, merchants can provide consumers with an easy, safe, and intuitive user experience.",
+      "Website": "https:\/\/getsimpl.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/simplhq\/"
+     },
+     {
+      "Name": "NoBroker",
+      "Sector": "Real Estate",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "India’s first Proptech unicorn, NoBroker.com is a disruptive brokerage-free property search portal that connects house\/property owners &amp; tenants\/buyers directly by eliminating the middleman.",
+      "Website": "https:\/\/www.nobroker.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/nobroker-in\/"
+     },
+     {
+      "Name": "CARS24",
+      "Sector": "Motor Vehicle Manufacturing",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "CARS24 is a next generation ecommerce platform for pre owned cars. We provide the best in class experience for car buyers by offering a wide assortment of certified cars that are home delivered in a click of a button while sellers get the best price of their vehicles in less than 1 hour.\nBuying a second car sometimes is not an easy task, it requires hours of browsing, multiple test drives and weeks before finding the right one. But with us, it is as simple as browsing through thousands of certified cars and reserving your favorite one by paying a refundable deposit. We’ll deliver the car to your home else you can collect it from a CARS24 hub near you. And if you don’t like your car, return it and get a complete refund within seven days. ",
+      "Website": "https:\/\/www.cars24.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/cars24\/?originalSubdomain=in"
+     },
+     {
+      "Name": "upGrad",
+      "Sector": "Ed-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Founded in 2015, upGrad is India’s largest online higher education company providing programs in Data Science, Technology, Management and Law, to students, working professionals and enterprises. Every program is designed and delivered in collaboration with top universities like the IIT Madras, MICA, NMIMS Global Access, Jindal Global Law School, Duke CE, Deakin University, Liverpool John Moores University and others.",
+      "Website": "https:\/\/www.upgrad.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/ueducation\/"
+     },
+     {
+      "Name": "CoinDCX",
+      "Sector": "Crypto exchange",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "CoinDCX is India’s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
+      "Website": "https:\/\/coindcx.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/coindcx\/"
+     },
+     {
+      "Name": "Rapido",
+      "Sector": "Transportation",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Rapido is India’s largest Bike Taxi App service and making quick strides in app-based auto rickshaws and delivery, among others. We’re on a mission to revolutionize the way people commute. And while we’re at it, we aim at creating a workplace that is fun, inclusive and perfectly fits all!",
+      "Website": "https:\/\/rapido.bike\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/rapido-bike\/"
+     },
+     {
+      "Name": "Udaan",
+      "Sector": "E-Commerce",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Founded in 2016 with a vision to transform the trade ecosystem in the country leveraging technology, udaan is India’s largest b2b eCommerce platform that is empowering small businesses through the power and scale offered by eCommerce. It has operations across categories including lifestyle, electronics, home &amp; kitchen, staples, fruits &amp; vegetables, FMCG, pharma, toys and general merchandise. udaan has over 3 million users, 1.7 million retailers, chemists, kirana shops, HoReCa, farmers and 30,000 sellers on the platform across the country. The platform enables supply chain &amp; logistics operations, which is based on sound technology, for daily delivery across 900 cities and 12,000 pin codes through udaanExpress. It enables financial products and trade credit services to small businesses, manufacturers, retailers and buyers through udaanCapital to grow their business.",
+      "Website": "https:\/\/udaan.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/udaan\/"
+     },
+     {
+      "Name": "Licious",
+      "Sector": "Food and Beverage Services",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Licious is a consumer food company, focussed at delighting the world with an unmatched range of meat &amp; meat products. Present in raw &amp; fresh meat and seafood, marinades and ready-to-eat categories, Licious is set to disrupt every food category that needs a meaty intervention!\nThe company is built with a vision to emerge as India’s most loved meat food brand by offering premium quality products.",
+      "Website": "https:\/\/www.licious.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/licious\/"
+     },
+     {
+      "Name": "Upstox",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Upstox is an online investment brand of RKSV Securities. Incorporated in 2009, RKSV is a Mumbai, India based SEBI registered financial service provider. RKSV offers online stock trading, commodity trading, currency derivatives trading, mutual funds, and demat account. RKSV Sec is a member of NSE, BSE, MCX, NCDEX, NSDL, and CDSL.\nUpstox offers a fast, reliable &amp; easy-to-use trading platform for traders in Indian stock market.",
+      "Website": "https:\/\/upstox.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/upstox\/"
+     },
+     {
+      "Name": "Urban Company",
+      "Sector": "Home and beauty services",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Urban Company is Asia's largest home services company. We are an all-in-one platform that helps users hire premium service professionals, from beauticians and masseurs to sofa cleaners, carpenters and technicians.",
+      "Website": "https:\/\/www.urbancompany.com\/about",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/urbancompany\/"
+     },
+     {
+      "Name": "Big Basket",
+      "Sector": "Food-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Buy Food Online through our online grocery shopping store of Bangalore, Mumbai and Hyderabad in India. Online Supermarket includes online vegetable store, food shopping online and groceries online. Online Grocery Shopping made easy. Buy groceries online and all your food, household &amp; personal care needs at our store at the best prices and get free home delivery.",
+      "Website": "https:\/\/www.bigbasket.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/bigbasket-com\/"
+     },
+     {
+      "Name": "Postman",
+      "Sector": "API platform",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Postman is the world’s leading API platform. Postman's features simplify each step of building an API and streamline collaboration to help create better APIs—faster. More than 20 million developers and 500,000 organizations across the globe use Postman today.",
+      "Website": "https:\/\/www.postman.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/postman-platform\/"
+     },
+     {
+      "Name": "CarDekho",
+      "Sector": "Auto-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "CarDekho.com is India's leading car search venture that helps users buy cars that are right for them. Its website and app carry rich automotive content such as expert reviews, detailed specs and prices, comparisons as well as videos and pictures of all car brands and models available in India. The company has tie-ups with many auto manufacturers, more than 4000 car dealers and numerous financial institutions to facilitate the purchase of vehicles.",
+      "Website": "https:\/\/www.cardekho.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/cardekho\/"
+     },
+     {
+      "Name": "PharmEasy",
+      "Sector": "Health-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Launched in 2015, PharmEasy is pharmacy made easy! Started with the sole purpose of making healthcare accessible and affordable to all, PharmEasy today is India’s leading and most trusted online healthcare aggregator in the country. We help patients connect with local pharmacy stores and diagnostic centers to fulfill their extensive medical needs. We believe that everyone should have access to good health. Thus, through our services, we ensure you get access to the best and most genuine health products, with the highest savings in the shortest time possible.",
+      "Website": "https:\/\/pharmeasy.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/pharmeasy\/"
+     },
+     {
+      "Name": "Dream11",
+      "Sector": "Fantasy Sports Platform",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Dream11 is the world’s* largest fantasy sports platform with 130 million+ users playing fantasy cricket, football, kabaddi, basketball, hockey, volleyball, handball, rugby, futsal, American football &amp; baseball, on it. A homegrown Indian brand, Dream11 helps Indian sports fans to actively engage with real-life sporting events and showcase their knowledge of sports.",
+      "Website": "https:\/\/www.dream11.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/dream11\/"
+     },
+     {
+      "Name": "FamPay",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "FamPay offers India's first online and offline card payments for teenagers! FamPay helps teens to make payments, online and offline through the FamCard, exclusively for teens.",
+      "Website": "https:\/\/fampay.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/fampay\/"
+     },
+     {
+      "Name": "Animall",
+      "Sector": "Agri-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Animall is an online platform to empower millions of dairy farmers, ushering in the next digital white revolution!\nOur vision is to build efficiencies in the dairy ecosystem in India using technology, data science, and design. We are building products and services for the next billion people, who have fundamentally different wants and needs.",
+      "Website": "https:\/\/www.animall.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/animall-in\/"
+     },
+     {
+      "Name": "Zepto",
+      "Sector": "Food-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "The magic of Zepto is our ability to consistently deliver 3000+ products in 10 minutes. It's the core of what we do, and the reason why we’ve been able to grow so fast with phenomenal customer love. Our mission is simple: to make 10-minute delivery the new normal.",
+      "Website": "https:\/\/www.zeptonow.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/zeptonow\/"
+     },
+     {
+      "Name": "cure.fit (cult.fit)",
+      "Sector": "Health-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "At cult.fit, we make group workouts fun, daily food healthy &amp; tasty, mental fitness easy with yoga &amp; meditation, Medical &amp; lifestyle care hassle-free.#BeBetterEveryDay",
+      "Website": "https:\/\/www.cult.fit\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/cult.fit\/"
+     },
+     {
+      "Name": "Dunzo",
+      "Sector": "Food-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Dunzo is an all-in-one 24X7 delivery platform, that picks and delivers anything and everything within the city while guaranteeing super-quick deliveries. ",
+      "Website": "https:\/\/www.dunzo.com\/bangalore",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/dunzo-in\/"
+     },
+     {
+      "Name": "StockGro",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Making Investment Social- India's First Social Trading Platform",
+      "Website": "https:\/\/www.stockgro.club\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/stockgro\/"
+     },
+     {
+      "Name": "OneCard",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "OneCard set out to redefine the credit card for YOU - the consumer. Control all aspects of your credit card using the powerful OneCard app - your credit limit, instant rewards redemption, and much more.",
+      "Website": "https:\/\/www.getonecard.app\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/showcase\/onecard-app\/"
+     },
+     {
+      "Name": "Acko",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "ACKO is India’s first and fastest-growing InsurTech company which makes buying and using insurance effortlessly.",
+      "Website": "https:\/\/www.acko.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/acko\/"
+     },
+     {
+      "Name": "Furlenco",
+      "Sector": "Furniture rental ",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Furlenco is a different furniture company. We enable the urban Indian to live better today in their homes, by giving them award-winning furniture and home decor on rent.",
+      "Website": "https:\/\/www.furlenco.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/furlenco\/"
+     },
+     {
+      "Name": "Uniphore",
+      "Sector": "AI",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Uniphore is a global Conversational (voice) AI company. Uniphore provides AI-enabled Conversational Analytics, Conversational Assistant and Conversational Security. ",
+      "Website": "https:\/\/www.uniphore.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/uniphore\/"
+     },
+     {
+      "Name": "Zolve",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "With Zolve, we aim to create a financial world beyond borders that provides equitable access to global financial products on a single, new-age platform. Our current product offerings are an operational bank account and a high-limit credit card that you can apply for while still in your home country.",
+      "Website": "https:\/\/zolve.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/zolve-official\/"
+     },
+     {
+      "Name": "Modulus Housing",
+      "Sector": "Construction Tech ",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Modulus envisions to re-imagine temporary structures. Fold-able cabin is a flagship product from Modulus Housing.",
+      "Website": "https:\/\/www.modulushousing.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/modulushousing\/"
+     },
+     {
+      "Name": "RazorPay",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Razorpay aims to revolutionize money management for online businesses by providing clean, developer-friendly APIs and hassle-free integration. We offer a fast, affordable and secure way for merchants, schools, ecommerce and other companies to accept and disburse payments online, own a fully-functional current account and avail working capital loans.",
+      "Website": "https:\/\/razorpay.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/razorpay\/"
+     },
+     {
+      "Name": "Groww",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "We are making finance simple. For millions in India.\nGroww is on a mission to democratize access to financial services for millions of Indians responsibly. We are a customer-first company.\nWe believe in crafting the best and most delightful user experience for our customers. And we leverage first principle thinking and technology to solve problems at scale.",
+      "Website": "https:\/\/groww.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/groww.in\/?originalSubdomain=in"
+     },
+     {
+      "Name": "Snapdeal",
+      "Sector": "E-Commerce",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "India's leading value e-commerce platform that has helped Indian e-commerce grow beyond just brands &amp; urban users. ",
+      "Website": "https:\/\/www.snapdeal.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/snapdeal\/"
+     },
+     {
+      "Name": "Zoomcar",
+      "Sector": "Car Rental",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Zoomcar holds the distinction of being India’s first personal mobility platform, with the introduction of car sharing services in 2013 and today is the market leader in the self-drive space with over 10,000 cars in its fleet. With a strong focus on the mobile experience, Zoomcar allows users to rent cars by the hour, day, week, or month. ",
+      "Website": "https:\/\/www.zoomcar.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/zoomcar-india-pvt-ltd-\/"
+     },
+     {
+      "Name": "Zeta ",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Zeta is in the business of providing a full-stack, cloud-native, API-first neo-banking platform including a digital core and a payment engine for issuance of credit, debit, and prepaid products that enable legacy banks and new-age fintech institutions to launch modern retail and corporate fintech products. ",
+      "Website": "https:\/\/www.zeta.tech\/in",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/zetasuite\/"
+     },
+     {
+      "Name": "Ola Electric",
+      "Sector": "EV",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Ola Electric - The future of mobility is here. Charging ahead to accelerate the world’s transition to sustainable mobility. Mobility for the world. Sustainability for the future.",
+      "Website": "https:\/\/olaelectric.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/olaelectric\/"
+     },
+     {
+      "Name": "Khatabook",
+      "Sector": "SaaS",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Founded in January 2019, Khatabook is the world's fastest-growing Saas company. It has become India's leading business management app for MSMEs with 13 languages &amp; 50M+ downloads in a remarkably short period of time. It also offers features such as online payment collection through UPI and QR; sending periodic reminders to creditors via messages and report generation. Thanks to this and more.",
+      "Website": "https:\/\/khatabook.com\/about",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/khatabook\/?originalSubdomain=in"
+     },
+     {
+      "Name": "Wakefit",
+      "Sector": "Furniture &amp; Home Furnishings Manufacturing",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "A home solutions and sleep company, currently helping employees claim their #RightToNap",
+      "Website": "https:\/\/www.wakefit.co\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/wakefitco\/"
+     },
+     {
+      "Name": "Vedantu",
+      "Sector": "Ed-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Vedantu is a LIVE online learning platform that brings together students and teachers to achieve best results.\nOn it, students can pick from a pool of India’s best teachers and learn from them via LIVE interactive classes. With its superior learning platform, Vedantu ensures that students can get their doubts solved instantly, take part in quizzes &amp; activities and have a personalised learning experience from India’s best teachers.",
+      "Website": "https:\/\/www.vedantu.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/vedantu\/"
+     },
+     {
+      "Name": "Pocket FM",
+      "Sector": "OTT Platform",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Pocket FM lets users discover and enjoy the greatest selection of audio content ranging from audiobooks, stories and podcasts from the most diverse creator community. ",
+      "Website": "https:\/\/www.pocketfm.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/pocket-fm\/"
+     },
+     {
+      "Name": "FirstCry",
+      "Sector": "E-Commerce",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "‘Firstcry is India’s leading e-commerce company in the kids and babies shopping sector, established in 2010 by Supam Maheshwari and Amitava Saha, headquartered in Pune. ",
+      "Website": "https:\/\/www.firstcry.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/firstcry\/"
+     },
+     {
+      "Name": "Trell",
+      "Sector": "Creator Economy",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Trell is India’s largest Social Commerce platform where users share their experiences and interests across Lifestyle categories like Fashion, Personal Care, Recipes, Technology &amp; Gadgets, Movies &amp; TV Reviews, in 10 Indian languages with the users. Through this meaningful content, the platform enables users to gain insightful information, recommendations, and reviews from relatable peers around makeup, skincare, and personal care products that they can purchase directly from within the app on ‘Trell Shop’.",
+      "Website": "https:\/\/trell.co\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/trell\/"
+     },
+     {
+      "Name": "Zomato",
+      "Sector": "Food delivery",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Zomato’s mission statement is “better food for more people.” Since our inception in 2008, we have grown tremendously, both in scope and scale - and emerged as India’s most trusted brand during the pandemic, along with being one of the largest hyperlocal delivery networks in the country.",
+      "Website": "https:\/\/www.zomato.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/zomato\/?originalSubdomain=in"
+     },
+     {
+      "Name": "Jupiter",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Jupiter is a digital banking app with one simple aim – to deliver a banking experience that keeps pace with you. We help you cut through the banking jargon, offer smart insights based on your spending, and provide you with a range of new-age features to enable you to make sense of your finances.",
+      "Website": "https:\/\/jupiter.money\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/jupiter-money\/?originalSubdomain=in"
+     },
+     {
+      "Name": "Unacademy",
+      "Sector": "Ed-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Unacademy aims to build the world's largest online knowledge repository for multi-lingual education. We use technology to empower great educators and create a community of self-learners. Our vision is to partner with the brightest minds and democratise education for everyone looking to learn.",
+      "Website": "https:\/\/unacademy.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/unacademy\/"
+     },
+     {
+      "Name": "Quikr",
+      "Sector": "E-Commerce",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "The Quikr platform operates across desktop, laptop and mobile phones, and allows consumers as well as small businesses to sell, buy, rent and find things across its multiple categories with great ease. ",
+      "Website": "https:\/\/www.quikr.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/quikr\/"
+     },
+     {
+      "Name": "INDmoney",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "INDmoney is a Super Finance App that helps you to save, plan and invest across your family members - All in one App. since its launch in 2019, the application has quickly grown to 4Mn users backed by innovative features such as US Stocks investing, Neo Banking &amp; Deposits, Financial life tracking and Robo Advisory.",
+      "Website": "https:\/\/www.indmoney.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/indmoney\/?originalSubdomain=in"
+     },
+     {
+      "Name": "Airmeet",
+      "Sector": "SaaS",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Airmeet is an all-in-one platform for virtual events, hybrid events, webinars, summits, meetups &amp; workshops with a social lounge to deliver a rich networking experience. Host fantastic events, virtually.",
+      "Website": "https:\/\/www.airmeet.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/airmeetcom\/"
+     },
+     {
+      "Name": "Kuvera",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Creating your financial goals and know how to meet them. Import your investments from other platforms for one consolidated view. The investing platform that's on YOUR side. Direct MFs | FDs | Health Insurance | US Stocks | International Money Transfer ",
+      "Website": "https:\/\/kuvera.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/kuvera-in\/"
+     },
+     {
+      "Name": "ixigo",
+      "Sector": "Travel-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "It is an intelligent, AI-based travel app that helps travellers organise, book and track their trips. ixigo’s vision is to empower travellers with trustworthy &amp; personalised travel recommendations. ",
+      "Website": "https:\/\/www.ixigo.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/ixigo\/"
+     },
+     {
+      "Name": "CredFlow",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Credflow enables SMEs to unlock working capital by helping them manage their finances better with timely insights through a dashboard of pending amounts by customers, sending regular payment reminders, validating invoices and negotiating discounts for early payment. Businesses are able to reduce their working capital cycles, foresee future cashflows and drive smarter business decisions enabling them to unlock 25-30% capital and use that to fuel growth.\nWith an aim to help businesses grow exponentially, Credflow is building a one stop solution for business owners to manage their banking, payments, treasury and get access to cashflow based financing.",
+      "Website": "https:\/\/credflow.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/credflow\/?originalSubdomain=in"
+     },
+     {
+      "Name": "boAt Lifestyle",
+      "Sector": "E-Commerce",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "boAt set its sail back in 2016. Both our founders, Aman Gupta and Sameer Mehta, realized the massive gaps in the audio and wearable market of India and hence founded boAt with the vision of making fashion meet the world of consumer electronics.",
+      "Website": "https:\/\/www.boat-lifestyle.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/boat-lifestyle\/"
+     },
+     {
+      "Name": "Inshorts",
+      "Sector": "Media &amp; Entertainment",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Inshorts Group is operating content distribution tech platforms with a user base across India, USA, UK, UAE, Canada and Southeast Asia. The applications currently operated by us include Inshorts, a tech platform that provides links\/access for articles sourced from various third party publishers to users",
+      "Website": "https:\/\/www.inshorts.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/inshorts-group\/"
+     },
+     {
+      "Name": "BYJU'S",
+      "Sector": "Ed-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "BYJU’S is a global ed-tech company, providing highly adaptive, engaging and effective learning solutions to more than 150 million students around the world. Founded in India in 2011, BYJU’S mission is to make high-quality learning accessible to students everywhere.",
+      "Website": "https:\/\/byjus.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/byjus\/?originalSubdomain=in"
+     },
+     {
+      "Name": "ShareChat",
+      "Sector": "Media &amp; Entertainment",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "ShareChat is India’s leading social media platform that operates exclusively in Indic languages. We empower our 160 million strong monthly active user community to share their opinions, record their lives and make new friends - all within the comfort of their language of choice.",
+      "Website": "https:\/\/sharechat.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/sharechat\/"
+     },
+     {
+      "Name": "Flipkart",
+      "Sector": "E-Commerce",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Flipkart is committed to transforming commerce in India through investments in made-in-India technology innovations, customer-centric constructs, a diverse category landscape and a world-class supply chain. With a customer base of over 350 million, product coverage of over 150 million across 80+ categories, a focus on generating direct and indirect employment and a commitment to empowering generations of entrepreneurs and MSMEs, all driven by a sustainable growth strategy – Flipkart is maximising for customers, stakeholders, and the planet at large!",
+      "Website": "https:\/\/www.flipkart.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/flipkart\/"
+     },
+     {
+      "Name": "Pepperfry",
+      "Sector": "E-Commerce",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Our mission is to spark a feeling called home across the world.\nWe’ve come a long way on a journey which began in 2012; with more than 8 million happy customers across 500+ cities, we’ve changed how India shops for their homes today.\nLong before omnichannel was a buzzword, we’d started blurring the lines between online and offline. Our customers engage with us online, on mobile and through our 64 experiential studios that do not sell anything, but still drive 25% of our business. We leverage technology to seamlessly integrate the virtual and real worlds; be it through interactive 3D content, reimagining UX, or AR\/VR, we’ve been ahead in the race to empower our customers.\nWe are a bunch of pioneers who set out to achieve what no one had ever done, and, with no playbook to follow. We make mistakes and learn from them each day, that is our DNA, our identity.",
+      "Website": "https:\/\/www.pepperfry.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/pepperfry\/"
+     },
+     {
+      "Name": "Wealthy",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Through our Wealth Management platform, we enable professionals to grow wealth for investors. Thousands of partners across the country are using it to focus on their clients, earn a fair share of revenue, and build a second income.",
+      "Website": "https:\/\/www.wealthy.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/wealthy-in\/"
+     },
+     {
+      "Name": "Krishify",
+      "Sector": "Agri-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "We are a digital technology-driven organization building an #agriverse, a digital community of farmers who enjoy a level-playing field to directly connect with businesses. We are focused on creating India’s first digital marketplace of agrarian products by leveraging an online community of more than 7 million farmers.",
+      "Website": "https:\/\/krishify.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/krishifyapp\/"
+     },
+     {
+      "Name": "toothsi",
+      "Sector": "Health-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "toothsi-smile makeovers from the comfort of your home, is founded by people who love to smile. And that's why we bring the new and the right way to get a smile makeover. An extension of your personal style. This is why we partner with you for your smile makeover journey. We want to give you easy, pain-free, empathetic, and personalised care. This is why the toothsi experience is an at-home experience. The journey has begun in 2018 and we have designed over 1,00,000+ smiles since then.",
+      "Website": "https:\/\/toothsi.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/toothsi\/"
+     },
+     {
+      "Name": "SmartCoin Financials",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "We are on a mission to create India’s largest fully automated financial Inclusion organisation by providing an array of financial services such as micro-loans to the vast underserved middle\/lower-income segment. Being in the Top 10 Google Launchpad backed AI\/ML Tech start-ups, you will meet the first-hand challenge of building &amp; scaling the business. You will work with some of the brilliant minds across the industry who passionately feel about solving the macro issue of financial Inclusion.",
+      "Website": "https:\/\/smartcoin.co.in\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/smartcoin-financials\/"
+     },
+     {
+      "Name": "Freshworks",
+      "Sector": "SaaS",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Freshworks makes it fast and easy for businesses to delight their customers and employees.\nWe do this by taking a fresh approach to building and delivering software that is affordable, quick to implement, and designed for the end-user.",
+      "Website": "https:\/\/www.freshworks.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/freshworks-inc\/"
+     },
+     {
+      "Name": "Uni Cards",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Uni Cards is a new-age fintech company with a mission to change the way people interact with credit. By reimagining the existing credit products and delivering an unmatched credit experience to millions of Indians, Uni is disrupting how the traditional credit card products work.",
+      "Website": "https:\/\/www.uni.cards\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/uni-cards\/"
+     },
+     {
+      "Name": "SUGAR Cosmetics",
+      "Sector": "Personal Care Product Manufacturing",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "SUGAR Cosmetics is a cruelty-free makeup brand that is high on style and higher on performance. The brand is inspired by and targeted towards bold, independent women who refuse to be stereotyped into roles.",
+      "Website": "https:\/\/sugarcosmetics.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/sugar-cosmetics\/"
+     },
+     {
+      "Name": "GoMechanic",
+      "Sector": "Technology-enabled auto after-sales service",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "GoMechanic is India’s leading multi-brand car service company, committed to making the car servicing experience hassle-free &amp; easy for everyone. We have created technology solutions that have disrupted the unorganised Auto-servicing industry making the solutions more systematic, reliable and cost-effective.",
+      "Website": "https:\/\/gomechanic.in\/delhi",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/gomechanic\/"
+     },
+     {
+      "Name": "Rupeek",
+      "Sector": "Fin-Tech",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Rupeek is India’s leading asset-backed, digital lending fintech platform. Driven by the mission to make credit accessible to Indians in a fair and convenient way, Rupeek is pioneering innovative financial products to help monetize India’s $2 trillion gold. Powered by state-of-the-art technology and an automated asset-light supply chain, Rupeek is transforming the way gold loans are disbursed in India. Through partnerships with leading banks and financial institutions, it is building gold-backed assets, in a low-risk, low-touch and friction-free manner.",
+      "Website": "https:\/\/rupeek.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/rupeek\/"
+     },
+     {
+      "Name": "Nykaa",
+      "Sector": "E-Commerce",
+      "Stage of Funding+ \nValuation": null,
+      "Short brief": "Nykaa.com is India's biggest online destination for beauty &amp; wellness. With over 2500+ brands, 5 lakh+ products and delivery all across India, we strive to be the one-stop-shop for a consumer. We retail only 100% authentic products sourced directly from brands (a rarity in the market!) and provide a superior delivery experience - all reinforcing a deep commitment to the customer. Nykaa Fashion is focused on being ‘high on style’ with a carefully curated collection of 450+ designers across clothing, accessories and footwear, to appeal to every woman. Nykaa Man is India's first multi-brand ecommerce store dedicated to men’s grooming",
+      "Website": "https:\/\/www.nykaa.com\/",
+      "LinkedIn ": "https:\/\/www.linkedin.com\/company\/nykaa-com\/"
+     }
+    ]
+    }
