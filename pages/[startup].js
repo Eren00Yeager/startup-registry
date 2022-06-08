@@ -19,20 +19,23 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-
-    return {
-        props: {
-            sname: context.params.startup,
-            
-        }
-    }
-
+    const getPathProps = comp.Sheet1.filter(
+        (sp) => sp.Name  === context.params.startup,
+      );
+      if (getPathProps.length > 0) {
+        return {
+          props: {
+            sp: getPathProps[0]
+          },
+        };
+      }
 }
 
 export default function Home(props) {
     return (
         <div>
-            <div>{props.sname}</div>
+            <div>{props.sp.Name}</div>
+            <div>{props.sp.Sector}</div>
         </div>
     )
 }
