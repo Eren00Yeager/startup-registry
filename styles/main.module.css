@@ -1,0 +1,4 @@
+.alignDiv{
+    display: flex;
+    flex-direction: row;
+}
