@@ -1,6 +1,8 @@
+import React, { useState, useEffect } from 'react';
 import comp from "../data/all_companies.json";
 import Card from "../components/Card";
 import styles from "../styles/main.module.css";
+import Pagination from "../components/Pagination";
 
 
 export async function getStaticProps() {
@@ -11,18 +13,29 @@ export async function getStaticProps() {
   }
   
 export default function Home({comp}) {
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const [compsPerPage] = useState(10);
+
+  
+  // Get current posts
+  const indexOfLastComp = currentPage * compsPerPage;
+  const indexOfFirstComp = indexOfLastComp - compsPerPage;
+  const currentComps = comp.slice(indexOfFirstComp, indexOfLastComp);
+
+  const paginate = pageNumber => setCurrentPage(pageNumber);
+
+
   return (
-        <ul>
-      {comp.map(company => (
-           <li><Card {...company}/></li>
-      ))}
-      </ul>
+       <div>
+         <Card companies={currentComps}/>
+         <Pagination 
+        compsPerPage={compsPerPage}
+        totalComps={comp.length}
+        paginate={paginate}
+      />
+       </div>
   
   );
 }
 
-// export default function Home({ allCompanies }) {
-// //   {
-// //     allCompanies.map((company) => <Card {...company} />);
-// //   }
-// }
