@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Sheet1": [
       {
@@ -812,3 +813,268 @@
       }
   ]
 }
+=======
+[
+  {
+    "Name": "Jupiter",
+    "Sector": "Fintech",
+    "Stage of Funding": "$ 86 M Series C; $711 M",
+    "desc": "Jupiter is a digital banking app with one simple aim – to deliver a banking experience that keeps pace with you. We help you cut through the banking jargon, offer smart insights based on your spending, and provide you with a range of new-age features to enable you to make sense of your finances.",
+    "LinkedIn ": "https://www.linkedin.com/company/jupiter-money?originalSubdomain=in",
+    "Website": "https://jupiter.money/",
+    "Valuation": 1
+  },
+  {
+    "Name": "Ather",
+    "Sector": "EV",
+    "Stage of Funding": "$128 M Series E;  $400 M",
+    "desc": "Ather Energy was started in 2013 by Tarun Mehta and Swapnil Jain, two engineering graduates straight out of college with the audacity to dream and challenge the well-established Internal Combustion Engine (ICE) and replacing it with an electric drive. \nAther is one of the few start-ups in India, specifically within the automotive industry, to have products &amp; services that are an amalgamation of clean design &amp; engineering - Hardware &amp; Software.",
+    "LinkedIn ": "https://www.linkedin.com/company/ather-energy/?originalSubdomain=in",
+    "Website": "https://www.atherenergy.com/",
+    "Valuation": 2
+  },
+  {
+    "Name": "Slice",
+    "Sector": "Fintech",
+    "Stage of Funding": " $ 86 M Series C; $1.5 B",
+    "desc": "Slice is a Bengaluru-based payment and credit startup that extends hassle-free payment cards to deal with your daily payments, which can also be converted into Equated Monthly Installments or EMIs for the ease of the user without any added expense.",
+    "LinkedIn ": "https://www.linkedin.com/company/sliceit/",
+    "Website": "https://www.sliceit.com/",
+    "Valuation": 3
+  },
+  {
+    "Name": "UpStox",
+    "Sector": "Fintech",
+    "Stage of Funding": "$25 M Series C; $ 3.4 B",
+    "desc": "Upstox is an online investment brand of RKSV Securities. Incorporated in 2009, RKSV is a Mumbai, India based SEBI registered financial service provider. RKSV offers online stock trading, commodity trading, currency derivatives trading, mutual funds, and demat account. RKSV Sec is a member of NSE, BSE, MCX, NCDEX, NSDL, and CDSL. Upstox offers a fast, reliable &amp; easy-to-use trading platform for traders in Indian stock market.",
+    "LinkedIn ": "https://www.linkedin.com/company/upstox/?originalSubdomain=in",
+    "Website": "https://upstox.com/",
+    "Valuation": 4
+  },
+  {
+    "Name": "Multipl",
+    "Sector": "Fintech",
+    "Stage of Funding": "$ 3 M Pre-series A",
+    "desc": "Multipl rewards its users for saving for future expenses by encouraging conscientious consumption and discourages users from making purchases on credit that can strain their finances.",
+    "LinkedIn ": "https://www.linkedin.com/company/multiplapp/",
+    "Website": "https://multipl.xyz/",
+    "Valuation": 5
+  },
+  {
+    "Name": "Bounce",
+    "Sector": "EV",
+    "Stage of Funding": "$ 105 M Series D",
+    "desc": "Bounce is a smart mobility solution company, with a mission of manufacturing electric two-wheeler vehicle company with removable battery / swapping technology.",
+    "LinkedIn ": "https://www.linkedin.com/company/bounceshare/?originalSubdomain=in",
+    "Website": "https://www.bounceshare.com/",
+    "Valuation": 6
+  },
+  {
+    "Name": "VakilSearch",
+    "Sector": "LegalTech",
+    "Stage of Funding": "$10 M Series B,",
+    "desc": "Vakilsearch is a technology-driven platform, offering services that cover the legal needs of startups and established businesses. Some of their services include incorporation, government registrations &amp; filings, accounting, documentation and annual compliances. In addition, they offer a wide range of services to individuals, such as property agreements and tax filings.",
+    "LinkedIn ": "https://www.linkedin.com/company/vakilsearch-com/",
+    "Website": "https://vakilsearch.com/",
+    "Valuation": 7
+  },
+  {
+    "Name": "Glamyo Health",
+    "Sector": "Healthtech",
+    "Stage of Funding": "$3M Series A,",
+    "desc": "Glamyo Health is a healthcare brand operating in the fields of elective and cosmetic surgeries, with a chain of hospitals and clinics operating in 1 lakhs+ happy patients, 40+ cities, and working with 500+ hospitals and 400+ surgeons across India.",
+    "LinkedIn ": "https://www.linkedin.com/company/glamyo/?originalSubdomain=in",
+    "Website": "https://glamyohealth.in/",
+    "Valuation": 8
+  },
+  {
+    "Name": "Toothsi",
+    "Sector": "Healthtech",
+    "Stage of Funding": "$ 40 M Series C, ",
+    "desc": "Provider of dental care services intended to offer clear aligners that are invisible, comfortable, and affordable.",
+    "LinkedIn ": "https://www.linkedin.com/company/toothsi/?originalSubdomain=in",
+    "Website": "https://toothsi.in/",
+    "Valuation": 9
+  },
+  {
+    "Name": "Toplyne",
+    "Sector": "SaaS Sales",
+    "Stage of Funding": "$ 15 M Series A",
+    "desc": "Toplyne helps sales teams at product-led companies convert their freemium users. Toplyne is a plug-and-play platform that enables sales teams at PLG (product-led growth) companies to identify and focus on the users and accounts most likely to convert.",
+    "LinkedIn ": "https://www.linkedin.com/company/toplynehq/?originalSubdomain=in",
+    "Website": "https://www.toplyne.io/",
+    "Valuation": 10
+  },
+  {
+    "Name": "Absolute Foods",
+    "Sector": "Bioscience, Agritech",
+    "Stage of Funding": "$ 100 M, Series B, $500 M",
+    "desc": "Absolute Foods is a food production and agriculture company. Absolute Foods' OS actionable insights based on inputs from the likes of sensors, satellite feeds, and others to the farmers for optimal growing conditions throughout the crop cycle.",
+    "LinkedIn ": "https://www.linkedin.com/company/absolutefoods/?originalSubdomain=in",
+    "Website": "https://www.absolutefoods.com/",
+    "Valuation": 11
+  },
+  {
+    "Name": "Dezerv",
+    "Sector": "Fintech",
+    "Stage of Funding": "$ 7 M, Seed",
+    "desc": "dezerv. aims to give successful professionals access to high quality investing expertise which has been the unfair advantage of the ultra-wealthy. The invite-only wealthtech platform combines domain expertise and cutting edge tech to create high-performing long term portfolios and also provides exclusive investment opportunities for their members.",
+    "LinkedIn ": "https://www.linkedin.com/company/dezerv-in/?originalSubdomain=in",
+    "Website": "https://www.dezerv.in/",
+    "Valuation": 12
+  },
+  {
+    "Name": "Inflection IO",
+    "Sector": "B2B Marketing",
+    "Stage of Funding": "$ 5 M, Seed",
+    "desc": "Inflection.io is a venture-backed product company that builds marketing technology to power product-led growth.",
+    "LinkedIn ": "https://www.linkedin.com/company/inflection-io/?originalSubdomain=in",
+    "Website": "https://www.inflection.io/",
+    "Valuation": 13
+  },
+  {
+    "Name": "Smytten",
+    "Sector": "Consumer",
+    "Stage of Funding": "$ 15 M Series B",
+    "desc": "Smytten is a platform that offers discovery, trials and purchase of lifestyle brands across multiple categories like beauty and grooming, food and beverages, health and wellness and fragrances, among others. Smytten's business model involves partnering with premium and luxury brands to provide them with a targeted sampling strategy in India.",
+    "LinkedIn ": "https://www.linkedin.com/company/smytten/?originalSubdomain=in",
+    "Website": "https://smytten.com/home",
+    "Valuation": 14
+  },
+  {
+    "Name": "GreyOrange",
+    "Sector": "Robotics",
+    "Stage of Funding": "$110 M Series D",
+    "desc": "GreyOrange is a global technology company unifying AI-driven software and mobile robotics to modernize order fulfillment and optimize warehouse operations in real time. GreyOrange is a technology startup creating artificial intelligence-driven software and AI-driven mobile robots for warehousing industry.",
+    "LinkedIn ": "https://www.linkedin.com/company/gogreyorange/",
+    "Website": "https://www.greyorange.com/",
+    "Valuation": 15
+  },
+  {
+    "Name": "Fashinza",
+    "Sector": "B2B Supply Chain",
+    "Stage of Funding": "$100 M Series B, $ 300 M",
+    "desc": "Fashinza is a B2B manufacturing marketplace that solves apparel/fashion supply chain challenges by connecting fashion brands to experienced manufacturers.",
+    "LinkedIn ": "https://www.linkedin.com/company/fashinza/",
+    "Website": "https://fashinza.com/?utm_source=google&amp;utm_medium=brand_search&amp;utm_campaign=brand-search-india-2022",
+    "Valuation": 16
+  },
+  {
+    "Name": "Frontrow",
+    "Sector": "EdTech",
+    "Stage of Funding": "$14 M Series A, $60 M",
+    "desc": "FrontRow is a learning and community platform focused on creative arts and sports that enables everyone to pursue their passions. FrontRow offers classes taught by celebrities in fields such as music, cricket or comedy, paired with a community platform that gives learners regular activities, competitions and peer engagement to practice and showcase their talent.",
+    "LinkedIn ": "https://www.linkedin.com/company/frontrow-in/?originalSubdomain=in",
+    "Website": "https://frontrow.co.in/",
+    "Valuation": 17
+  },
+  {
+    "Name": "MoEngage",
+    "Sector": "B2B, Customer Engage",
+    "Stage of Funding": "$ 77 M Series E, $700 M",
+    "desc": "MoEngage is an internet company that features cloud-based marketing services for consumer businesses. It helps companies on campaigns across channels such as in-app messaging, web, and SMS providing machine learning for optimization of customer engagement. The company was founded in 2014 and is headquartered in San Francisco, California",
+    "LinkedIn ": "https://www.linkedin.com/company/moengage/?originalSubdomain=in",
+    "Website": "https://www.moengage.com/",
+    "Valuation": 18
+  },
+  {
+    "Name": "Doceree",
+    "Sector": "Healthtech",
+    "Stage of Funding": "$11 M Series A,",
+    "desc": null,
+    "LinkedIn ": "https://www.linkedin.com/company/doceree/?originalSubdomain=in",
+    "Website": "https://doceree.com/in/",
+    "Valuation": 19
+  },
+  {
+    "Name": "Digit",
+    "Sector": "Insurtech",
+    "Stage of Funding": "$ 54M, $4 B",
+    "desc": "Digit Insurance is a tech-driven insurance startup based in Bengaluru, India. The company seeks to build simple and transparent solutions, focusing on car, travel, mobile, jewelry, and bicycle insurance. Digit Insurance was founded in 2006 and is based in Bengaluru, India.",
+    "LinkedIn ": "https://www.linkedin.com/company/godigit/?originalSubdomain=in",
+    "Website": "https://www.godigit.com/",
+    "Valuation": 20
+  },
+  {
+    "Name": "Waycool",
+    "Sector": "Agricommerce",
+    "Stage of Funding": "$ 117 M Series D, $460 M",
+    "desc": "WayCool Foods is India’s largest and fastest-growing agri-commerce company. Focusing on food development and distribution, the company leverages innovative technology to scale and operate a complex supply chain from soil to sale.",
+    "LinkedIn ": "https://www.linkedin.com/company/waycoolfoods/?originalSubdomain=in",
+    "Website": "https://waycool.in/",
+    "Valuation": 21
+  },
+  {
+    "Name": "Rocketlane",
+    "Sector": "SaaS",
+    "Stage of Funding": "$ 18 M Series A",
+    "desc": "Rocketlane is a customer onboarding software that lets you collaborate with customers, consistently hit your onboarding goals, and accelerate time-to-value.",
+    "LinkedIn ": "https://www.linkedin.com/company/rocketlane/",
+    "Website": "https://www.rocketlane.com/",
+    "Valuation": 22
+  },
+  {
+    "Name": "Recykal",
+    "Sector": "B2B Waste Management",
+    "Stage of Funding": "$ 22 M ",
+    "desc": "Recykal is a digital technology company powering a marketplace, building Saas, cloud based solutions for Waste management, recycling industry.",
+    "LinkedIn ": "https://www.linkedin.com/company/teamrecykal/?originalSubdomain=in",
+    "Website": "https://recykal.com/",
+    "Valuation": 23
+  },
+  {
+    "Name": "Evage",
+    "Sector": "EV",
+    "Stage of Funding": "$ 28 M Seed",
+    "desc": "EVage is electrifying India's logistics sector through our indigenously designed, and emissions-free electric commercial vehicles.",
+    "LinkedIn ": "https://www.linkedin.com/company/evage-ventures-pvt-ltd/?originalSubdomain=in",
+    "Website": "https://www.evage.in/",
+    "Valuation": 24
+  },
+  {
+    "Name": "Zorro",
+    "Sector": "Social Network",
+    "Stage of Funding": "$ 3.2 M Seed",
+    "desc": "Zorro is an early stage startup. It is a platform that empowers individuals to share their true experiences with the community.",
+    "LinkedIn ": "https://www.linkedin.com/company/joinzorro/?originalSubdomain=in",
+    "Website": "https://www.joinzorro.com/",
+    "Valuation": 25
+  },
+  {
+    "Name": "Hasura",
+    "Sector": "SaaS",
+    "Stage of Funding": "$100 M Series C; $ 1 B",
+    "desc": "Hasura makes software to simplify and accelerate application development. The Hasura GraphQL Engine gives you instant, realtime, high-performance GraphQL on any Postgres application, existing or new. It also includes an event trigger system to help you build serverless apps.",
+    "LinkedIn ": "https://www.linkedin.com/company/hasura/?originalSubdomain=in",
+    "Website": "https://hasura.io/",
+    "Valuation": 26
+  },
+  {
+    "Name": "Altigreen",
+    "Sector": "EV",
+    "Stage of Funding": "$40 M Series A",
+    "desc": "Altigreen is a leader in Electric Vehicle (EV) technology and solutions for Last Mile Transportation (LMT) through 2, 3 and 4 wheeled vehicles for commercial use. Altigreen’s technology is specifically designed for Indian environmental and commercial conditions.",
+    "LinkedIn ": "https://www.linkedin.com/company/altigreen-propulsion-labs/?originalSubdomain=in",
+    "Website": "https://altigreen.com/",
+    "Valuation": 27
+  },
+  {
+    "Name": "Kenko Health",
+    "Sector": "Healthtech",
+    "Stage of Funding": "$12 M Series A",
+    "desc": "The company engages health-related digital financing services with specialized membership plans for diabetic patients, senior citizens as well as the general public that includes purchasing prescribed medicines and drugs, paying medical bills, treatment, and other expenses, thus making healthcare affordable for anyone.",
+    "LinkedIn ": "https://www.linkedin.com/company/kenko-health/?originalSubdomain=in",
+    "Website": "https://www.kenkohealth.in/",
+    "Valuation": 28
+  },
+  {
+    "Name": "Chargebee",
+    "Sector": "SaaS",
+    "Stage of Funding": "$250 M Series H, $ 3.5 B",
+    "desc": "Chargebee is a recurring billing and subscription management tool that helps SaaS and SaaS-like businesses streamline Revenue Operations.",
+    "LinkedIn ": "https://www.linkedin.com/company/chargebee/?originalSubdomain=in",
+    "Website": "https://www.chargebee.com/",
+    "Valuation": 29
+  }
+]
+>>>>>>> df80c820563e549652c7a41b6de51ac3d3ec842f
