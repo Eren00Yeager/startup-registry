@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import comp from "../data/all_companies.json";
 import Card from "../components/Card";
-import styles from "../styles/main.module.css";
 import Pagination from "../components/Pagination";
 
 
