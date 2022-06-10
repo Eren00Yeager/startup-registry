@@ -15,7 +15,7 @@ export async function getStaticProps() {
 export default function Home({comp}) {
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [compsPerPage] = useState(10);
+  const [compsPerPage] = useState(12);
 
   
   // Get current posts
