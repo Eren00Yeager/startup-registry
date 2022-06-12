@@ -1,0 +1,30 @@
+.headings{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.leftcontainer{
+    background-color: #432CCE4F;
+    border-radius: 20px 6px 6px 20px;
+}
+
+.rightcontainer{
+    color: black;
+    border-radius: 20px
+}
+
+.sidebarrows{
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 1vh;
+    padding: 1vh;
+}
+
+.rightbarcols{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    padding: 1vh; 
+}
