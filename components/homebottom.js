@@ -21,9 +21,12 @@ const Homebottom=()=>{
                         sectors.map((sector)=>{
                             return(
                             <Row>
-                                <Container className={styles.sidebarrows}>
+                                <center>
+                                <button className={styles.sidebarrows}>
                                     &emsp;{sector}
-                                </Container>
+                                </button>    
+                                </center>
+                                
                             </Row>    
                             );
                             
@@ -43,9 +46,9 @@ const Homebottom=()=>{
                             stages.map((stage)=>{
                                 return(
                                     <Col>
-                                        <Container className={styles.rightbarcols}>
+                                        <button className={styles.rightbarcols}>
                                             <center>{stage}</center>
-                                        </Container>
+                                        </button>
                                     </Col>   
                                 );
                                
