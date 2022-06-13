@@ -11,7 +11,7 @@ import dt from "../pic/dot.svg";
 import S from "../styles/startup.module.css"
 export async function getStaticPaths() {
 
-    const paths = comp.Sheet1.map(sp => {
+    const paths = comp.map(sp => {
 
         return {
             params: {
@@ -28,7 +28,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-    const getPathProps = comp.Sheet1.filter(
+    const getPathProps = comp.filter(
         (sp) => sp.Name === context.params.startup,
     );
     if (getPathProps.length > 0) {
