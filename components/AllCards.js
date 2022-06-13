@@ -1,15 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import comp from "../data/all_companies.json";
-import Card from "../components/Card";
-import Pagination from "../components/Pagination";
+import Card from "./Card";
+import Pagination from "./Pagination";
 
-
-export async function getStaticProps() {
-    return {
-      props: { comp,
-      },
-    };
-  }
   
 export default function Home({comp}) {
 

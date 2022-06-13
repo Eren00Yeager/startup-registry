@@ -11,15 +11,22 @@ const Card = ({ companies }) => {
   }
 
   return (
-    <div className={styles.colFlex}>
-      {styledCols.map((styledCol) => (
-        <div className={styles.rowFlex}>
-          {styledCol.map((item) => (
-            <IndvCard data={item}/>
-          ))}
-        </div>
+    // <div className={styles.colFlex}>
+    //   {styledCols.map((styledCol) => (
+    //     <div className={styles.rowFlex}>
+    //       {styledCol.map((item) => (
+    //         <IndvCard data={item}/>
+    //       ))}
+    //     </div>
+    //   ))}
+    // </div>
+
+    <div className={styles.rowFlex}>
+      {companies.map((company) => (
+        <IndvCard data={company}/>
       ))}
     </div>
+
 
     // <div className={styles.colFlex}>
     //   <div className={styles.rowFlex}>
