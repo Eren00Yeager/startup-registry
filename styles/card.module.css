@@ -1,14 +1,16 @@
-.colFlex{
+.colFlex {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.colFlex2{
+.colFlex2 {
   display: flex;
   flex-direction: column;
-  margin: 1em;
+  margin: 0.7em;
+  width: 15em;
 
-  background-color:  #d9d9d9;
+  background-color: #d9d9d9;
   border: none;
   border-radius: 20px;
 }
@@ -16,19 +18,52 @@
 .rowFlex {
   display: flex;
   flex-direction: row;
-}
-
-.card {
-  border-radius: 20px;
-  width: 30%;
-
-  background-color: aqua;
+  flex-wrap: wrap;
 }
 
 .forImage {
-  border-radius: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-.pText{
+.Valuation {
+  position: absolute;
   text-align: center;
+  margin-top: 1em;
+  margin-left: 1em;
+  padding: 0.35em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+
+  border-radius: 20px;
+  color:white;
+  background-color: #432cce;
+}
+
+.headPtext {
+  text-align: left;
+  padding-left: 0.7em;
+  padding-right: 0.6em;
+  padding-top: 0.5em;
+  padding-bottom: 0;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+
+  color: #383838;
+}
+
+.pText {
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 0.6em;
+  padding-top: 0.6em;
+  padding-bottom: 1em;
+
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.1em;
+
+  color: #000000;
 }
