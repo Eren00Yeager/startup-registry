@@ -33,6 +33,7 @@ export default function Home({comp}) {
         totalComps={comp.length}
         paginate={paginate}
       />
+
        </div>
   
   );

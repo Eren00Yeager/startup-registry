@@ -12,7 +12,8 @@
 
 .rightcontainer{
     color: black;
-    border-radius: 20px
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
 }
 
 .sidebarrows{
