@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Card from "./Card";
-import Pagination from "./Pagination";
+import comp from "../data/all_companies.json";
+import Card from "../components/Card";
+import Pagination from "../components/Pagination";
+import Homebottom from '../components/homebottom';
+import Homebottommobile from '../components/homebottommobile';
 
   
 export default function Home({comp}) {
@@ -25,7 +28,6 @@ export default function Home({comp}) {
         totalComps={comp.length}
         paginate={paginate}
       />
-
        </div>
   
   );

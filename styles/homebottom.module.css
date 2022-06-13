@@ -22,10 +22,24 @@
     width: 80%;
     margin-bottom: 1vh;
     padding: 1vh;
+    text-align: left!important;
 }
 
 .rightbarcols{
     background-color: #D9D9D9;
-    border-radius: 20px;
-    padding: 1vh; 
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.5vh; 
+    font-size: 17px;
+}
+
+.sidebarrows:hover,.sidebarrows:active,.sidebarrows:focus,.sidebarrows:checked
+{
+    background-color: #442cce31;
+    color: white;
+}
+
+.rightbarcols:hover,.rightbarcols:active,.rightbarcols:focus,.rightbarcols:checked{
+    background-color: rgba(67, 44, 206, 0.8);
+    color:white;
 }
