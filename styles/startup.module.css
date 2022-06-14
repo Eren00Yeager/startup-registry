@@ -183,17 +183,35 @@ padding-left: 10px;
 
 .tim{
     position: relative;
-    /* background-color: aqua; */
-    /* height: 2px; */
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
 }
 
 .cir{
     position: absolute;
-    /* background-color: pink; */
     top:0;
-
+    height: 20px;
+    background-color: yellow;
+}
+.cir1{
+    /* left:33%; */
+    position: absolute;
+    top:0;
+    height: 20px;
+}
+.cir2{
+    /* left:66%; */
+    position: absolute;
+    top:0;
+    height: 20px;
+}
+.cir3{
+    /* left:97%; */
+    position: absolute;
+    top:0;
+    height: 20px;
 }
 .fc{
 /* width: 100%; */
@@ -412,4 +430,7 @@ line-height: 26px;
 
 color: #383838;
 
+}
+.tim{
+    background-color: aqua;
 }
