@@ -12,6 +12,7 @@ const IndvCard = ({ data }) => {
           src={fail}
           height={200}
           width={100}
+          alt=''
         />
         <div className={styles.Valuation}>$120</div>
         <div className={styles.headPtext}>{data.Name}</div>

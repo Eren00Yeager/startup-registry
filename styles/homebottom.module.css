@@ -37,9 +37,19 @@
 {
     background-color: #442cce31;
     color: white;
+    font-weight: bold;
 }
 
 .rightbarcols:hover,.rightbarcols:active,.rightbarcols:focus,.rightbarcols:checked{
     background-color: rgba(67, 44, 206, 0.8);
     color:white;
+    font-weight: bold;
+}
+
+.demo{
+    background-color: rgba(67, 44, 206, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 2vh 0 2vh;
+    color: wheat;
 }
