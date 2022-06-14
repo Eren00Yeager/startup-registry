@@ -92,3 +92,13 @@ padding:20px 0px 20px 40px;
     
   }
 }
+
+.search{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 0.5vh;
+  color: #383838;
+}
