@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import Card from "./Card";
-import Pagination from "./Pagination";
+import comp from "../data/all_companies.json";
+import Card from "../components/Card";
+import Pagination from "../components/Pagination";
 
   
-export default function Home({comp}) {
+export default function AllCards({comp}) {
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [compsPerPage] = useState(12);
+  const [compsPerPage] = useState(6);
 
   
   // Get current posts
@@ -18,8 +19,9 @@ export default function Home({comp}) {
 
 
   return (
-       <div>
-         <Card companies={currentComps}/>
+       <div> 
+          <Card companies={currentComps}/>
+         
          <Pagination 
         compsPerPage={compsPerPage}
         totalComps={comp.length}

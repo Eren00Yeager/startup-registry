@@ -5,17 +5,18 @@ import comp from "../data/all_companies.json";
 
 export async function getStaticProps() {
   return {
-    props: { comp },
+    props: { comp,
+    },
   };
 }
 
-const DummyHead = ({ comp }) => {
-    const [compsToShow,setComps] = useState(1);
+const DummyHead =({comp})=>{
+return(
+  <>
+        <SearchBar comp={comp} />
 
-  return (
-    <>
-      <SearchBar comp={comp} />
-      <Allcards comp={comp} />
+      <Allcards comp={comp}/>
+    
     </>
   );
 };
