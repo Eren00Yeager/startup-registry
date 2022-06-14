@@ -32,8 +32,7 @@ const Homebottom=({comp})=>{
 
 
     return(
-        <div>
-        <Container className={styles.container}>
+        <Container>
             <Row>
                 <Col md={4} className={styles.leftcontainer}>
                     <div>
@@ -93,9 +92,8 @@ const Homebottom=({comp})=>{
                         </Row>
                     </div>
                 </Col>
-            </Row>     
-        </Container>   
-        </div>
+            </Row>      
+        </Container>
         
     );
 }
