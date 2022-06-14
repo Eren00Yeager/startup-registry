@@ -1,3 +1,23 @@
+.explore{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgba(67, 44, 206, 0.8);
+  padding: 2vh 0 2vh 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .container {
   padding: 0 2rem;
 }
