@@ -3,6 +3,7 @@ import AllCards from "../components/AllCards";
 import styles from '../styles/Home.module.css';
 import SearchBar from "../components/SearchBar";
 import comp from "../data/all_companies.json";
+import Hometop from "../components/hometop";
 
 export async function getStaticProps() {
     return {
@@ -15,6 +16,7 @@ const home=()=>{
     return(
         <div style={{'backgroundColor':'#F5F5F5'}}>
             <SearchBar comp={comp}/>
+            <Hometop/>
             <div className={styles.explore}><center>Explore</center></div>
             <div className="d-none d-md-block">
                 <Homebottom comp={comp}/>
