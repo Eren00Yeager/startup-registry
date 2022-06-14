@@ -4,6 +4,15 @@
   flex-wrap: wrap;
 }
 
+.forButton{
+  border:none;
+}
+
+.forButton:hover{
+
+border: none;
+}
+
 .colFlex2 {
   display: flex;
   flex-direction: column;
@@ -62,7 +71,6 @@
   text-align: left;
   padding-left: 1em;
   padding-right: 0.6em;
-  padding-top: 0.6em;
   padding-bottom: 1em;
 
   font-weight: 500;

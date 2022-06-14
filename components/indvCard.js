@@ -9,6 +9,7 @@ const IndvCard = ({ data }) => {
 
   return (
     <Link href={`/${data.Name}`}>
+     <button className={styles.forButton}>
       <div className={styles.colFlex2}>
       <Image
     className={styles.forImage}
@@ -19,11 +20,14 @@ const IndvCard = ({ data }) => {
     />
       
         <div className={styles.Valuation}>$120</div>
-        <div className={styles.headPtext}>{data.Name}</div>
+        <div className={styles.headPtext}>{data.Name}
+        </div>
         <div className={styles.pText}>{data.Sector}</div>
         <div className={styles.pText}>{data.Stage}</div>
         <div className={styles.pText}>boAt is the world's 5th largest wearable brand along with India’s No.1 Earwear brand.</div>
       </div>
+      </button>
+
     </Link>
   );
 };
