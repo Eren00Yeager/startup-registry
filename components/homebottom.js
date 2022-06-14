@@ -2,24 +2,16 @@ import {Container,Col,Row, Form} from 'react-bootstrap'
 import styles from '../styles/homebottom.module.css'
 import styles2 from '../styles/homebottommobile.module.css'
 import AllCards from './AllCards';
-import comp from "../data/all_companies.json";
 import { useEffect, useState } from 'react';
 
-export async function getStaticProps() {
-    return {
-      props: { comp,
-      },
-    };
-  }
 
 
 
-const sectors=['All'].concat([...new Set(comp.map(item => item['Sector']))].sort())
+const Homebottom=({comp})=>{
 
-const stages=['All'].concat([...new Set(comp.map(item => item['Stage']))])
+    const sectors=['All'].concat([...new Set(comp.map(item => item['Sector']))].sort())
 
-
-const Homebottom=()=>{
+    const stages=['All'].concat([...new Set(comp.map(item => item['Stage']))])
 
     const [sector,setSector]=useState('');
     const [stage,setStage]=useState('');
@@ -108,7 +100,11 @@ const Homebottom=()=>{
     );
 }
 
-const Homebottommobile=()=>{
+const Homebottommobile=({comp})=>{
+
+    const sectors=['All'].concat([...new Set(comp.map(item => item['Sector']))].sort())
+
+const stages=['All'].concat([...new Set(comp.map(item => item['Stage']))])
 
     const [sector,setSector]=useState('');
     const [stage,setStage]=useState('');

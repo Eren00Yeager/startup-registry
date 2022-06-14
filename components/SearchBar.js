@@ -74,7 +74,7 @@ const SearchBar = ({ comp }) => {
                 const fullName = item.Name.toLowerCase();
 
                 return (
-                  // searchTerm &&
+                   searchTerm &&
                   (fullName.startsWith(searchTerm) ||
                     isValid(fullName, searchTerm)) &&
                   fullName !== searchTerm
