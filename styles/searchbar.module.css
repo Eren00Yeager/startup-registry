@@ -6,14 +6,42 @@
   align-items: center;
 }
 
-.searchcontainer {
-  width: 280px;
+
+.searchInner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+}
+
+.forImage{
+  /* position: absolute; */
+  padding: 5px 9px ;
+  z-index: 10;
+}
+
+.forInput{
+padding:20px 0px 20px 40px;
+ width: 100%;
+ height:30px;
+ position: absolute;
+ 
+ border-radius: 29px;
+ border: none;
+}
+
+.forInput::placeholder{
+  font-weight: 500;
 }
 
 .dropdown {
   background-color: white;
+  z-index: 10;
+  overflow-y: scroll;
+  position: absolute;
+  max-height: 100px;
+  width: 100%;
+  top:0;
   display: flex;
   flex-direction: column;
   border: 1px solid gray;
@@ -29,6 +57,38 @@
   margin: 2px 0;
 }
 
-.searchInner {
-  display: flex;
+
+ 
+.idrop{
+  position: relative;
+  width: 80%;
+  padding:0px 0px 0px 40px;
+  
+}
+
+@media screen and (max-width :480px) {
+  .searchcontainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+}
+
+@media screen and (min-width: 480px) {
+  .searchcontainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+@media screen  and (min-width: 950px) {
+  .idrop{
+    position: relative;
+    width: 85%;
+    padding:0px 0px 0px 40px;
+    
+  }
 }
