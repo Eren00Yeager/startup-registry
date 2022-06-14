@@ -3,12 +3,12 @@ import React from "react";
 import IndvCard from "./indvCard";
 
 const Card = ({ companies }) => {
-  const cardsPerRow = 3;
-  var styledCols = [];
-  var comps = [...companies];
-  while (comps.length > 0) {
-    styledCols.push(comps.splice(0, cardsPerRow));
-  }
+  // const cardsPerRow = 3;
+  // var styledCols = [];
+  // var comps = [...companies];
+  // while (comps.length > 0) {
+  //   styledCols.push(comps.splice(0, cardsPerRow));
+  // }
 
   return (
     // <div className={styles.colFlex}>
