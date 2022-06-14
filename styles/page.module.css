@@ -1,0 +1,149 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+.wholepage{
+    font-family: 'SF Pro Display';
+    text-align: center;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    padding: 2% 0 2% 0;
+}
+
+.heading{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+
+.tag{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    color: #000000;
+}
+
+.text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.search{
+    padding: 10;
+    width: 533px;
+    height: 51px;
+}
+
+.Border{
+    background: #FFFFFF;
+    /* height: 50%; */
+/* mix-blend-mode: hard-light; */
+box-shadow: 4.82317px 48.762px 154px rgba(0, 0, 0, 0.0455), 2.44173px 24.6858px 67.1344px rgba(0, 0, 0, 0.07), 0.964635px 9.75241px 25.025px rgba(0, 0, 0, 0.0945), 0.211014px 2.13334px 8.90312px rgba(0, 0, 0, 0.14);
+border-radius: 23px;
+}
+
+.DivFlex{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    width: 100%;
+    /* max-height: 752px; */
+    height: 10%;
+}
+
+.g{
+    /* padding: 0em 2em 2em 2em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* hide 3 graphs and 2 last boxes */
+
+.hide{
+    display: none;
+}
+
+.allBoxes{
+    flex-direction: column;
+    width: 85%;
+}
+
+.b1{
+    padding-left: 1em;
+    width: 100%;
+    min-height: 358px;
+    border-radius: 10px;
+    /* margin-right: 2em; */
+    background-color: #F4F4F4;
+    text-align: left ;
+}
+
+.halfb1{
+    padding-left: 1em;
+    width: 100%;
+    min-height: 150px;
+    border-radius: 10px;
+    /* margin-right: 2em; */
+    background-color: #F4F4F4;
+    text-align: left ;
+}
+
+.b2{
+    width: 100%;
+    min-height: 285px;
+    border-radius: 10px;    
+    /* margin-right: 2em; */
+    padding-left: 1em;
+    background-color: #F4F4F4;
+    text-align: left;
+}
+
+.twoBoxes{
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+    justify-content: space-around;
+
+}
+
+
+
+.d1{
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: rgba(92, 190, 91, 0.8);
+
+}
+
+
+.svgs{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.boxcontent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.boxheading{
+    padding: 1em;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
