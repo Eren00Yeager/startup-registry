@@ -58,7 +58,7 @@ const SearchBar = ({ comp }) => {
 
   return (
     <div className={searchStyles.App}>
-      <h1>Search</h1>
+      <span className={searchStyles.search}>Search startups by name/sector</span>
 
       <div className={searchStyles.searchcontainer}>
         <div className={searchStyles.searchInner}>
@@ -82,7 +82,7 @@ const SearchBar = ({ comp }) => {
                 const fullName = item.Name.toLowerCase();
 
                 return (
-                  searchTerm &&
+                   searchTerm &&
                   (fullName.startsWith(searchTerm) ||
                     isValid(fullName, searchTerm)) &&
                   fullName !== searchTerm
