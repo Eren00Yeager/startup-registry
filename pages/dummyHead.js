@@ -1,4 +1,6 @@
-import Allcards from '../components/AllCards';
+import { useState } from "react";
+import Allcards from "../components/AllCards";
+import SearchBar from "../components/SearchBar";
 import comp from "../data/all_companies.json";
 
 export async function getStaticProps() {
@@ -10,8 +12,13 @@ export async function getStaticProps() {
 
 const DummyHead =({comp})=>{
 return(
-<Allcards comp={comp}/>
-)
-}
+  <>
+        <SearchBar comp={comp} />
 
-export default DummyHead;   
+      <Allcards comp={comp}/>
+    
+    </>
+  );
+};
+
+export default DummyHead;
