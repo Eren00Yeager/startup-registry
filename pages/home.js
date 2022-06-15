@@ -38,9 +38,6 @@ const home=()=>{
                     <Homebottommobile comp={comp}/>
                 </div>    
             </Row>
-            
-            
-            
         </div>
     );
 }

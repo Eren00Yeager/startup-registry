@@ -11,6 +11,13 @@ const SearchBar = ({ comp }) => {
     setCompanySearch(event.target.value);
   };
 
+
+  const isEnter= (event)=>{
+    if(event.keyCode == 13){
+      onSearch(event.target.value);
+    }
+  }
+
   const onSearch = (searchTerm) => {
     setCompanySearch(searchTerm);
     // our api to fetch the search result
@@ -63,6 +70,7 @@ const SearchBar = ({ comp }) => {
             placeholder="zolvit"
             onChange={changedSearch}
             className={searchStyles.forInput}
+            onKeyUp={isEnter}
           />
         </div>
         {/* implementing scroll view for this div required */}
