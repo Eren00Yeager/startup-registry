@@ -10,8 +10,10 @@ import tl from "../pic/tim.svg";
 import bl from "../pic/bl.svg";
 import fn from "../pic/fun.svg";
 import dt from "../pic/dot.svg";
-import S from "../styles/startup.module.css"
+import S from "../styles/startup.module.css";
+import tl2 from "../pic/tim2.svg";
 import { Container, Row, Col } from "react-bootstrap";
+import { useState, useEffect } from 'react';
 
 import SearchBar from '../components/SearchBar';
 export async function getStaticPaths() {
@@ -44,15 +46,61 @@ export async function getStaticProps(context) {
         };
     }
 }
-const Imagecontainer = styled.div`
-  position: absolute;
-  top:0;
-  background:yellow;
-`
+
+
+
+
+
+// Hook
+
+// Initialize state with undefined width/height so server and client renders match
+// Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+
+
+
+
 export default function Home(props) {
+
+    const [windowSize, setWindowSize] = useState({
+        width: "",
+        height: "",
+    });
+
+    useEffect(() => {
+        // only execute all the code below in client side
+        if (typeof window !== 'undefined') {
+            // Handler to call on window resize
+            function handleResize() {
+                // Set window width/height to state
+                setWindowSize({
+                    width: window.innerWidth,
+                    height: window.innerHeight,
+                });
+            }
+
+            // Add event listener
+            window.addEventListener("resize", handleResize);
+
+            // Call handler right away so state gets updated with initial window size
+            handleResize();
+
+            // Remove event listener on cleanup
+            return () => window.removeEventListener("resize", handleResize);
+        }
+    }, []); // Empty array ensures that effect is only run on mount
 
     let str = props.sp.Logo;
     str = str.slice(32, 65);
+
+    const des = props.sp.Shortbrief;
+
+const iterator = des[Symbol.iterator]();
+let theChar = iterator.next();
+let s="";
+while (!theChar.done && theChar.value !== '.') {
+   s=s+theChar.value
+  theChar = iterator.next();
+}
     return (
         <>
 
@@ -65,17 +113,28 @@ export default function Home(props) {
                     <div className={S.info}>
                         <div className={S.r1}>
                             <div className={S.card1}>
-                                <img className={S.log} src={`http://drive.google.com/uc?export=view&id=${str}`}></img>
+                                <div style={{ width: '100%', height: '100%' }}>
+                                    <Image
+                                        src={`http://drive.google.com/uc?export=view&id=${str}`}
+                                        alt="Picture of the author"
+                                        width={300}
+                                        height={300}
+                                        style={{ borderRadius: "20px 20px 0px 0px" }}
+
+                                    />
+                                </div>
+                                <span className={S.uni}>{props.sp.Name} {props.sp.Stage=="Unicorn"  ? "(Unicorn)"  : "" }</span>
+                                <span className={S.uni}>{props.sp.Sector}</span>
                                 <div className={S.det}>
-                                    <div className={S.hed}><span className={S.uni}>Unicorn</span><br></br>Jupiter is a digital banking app with one simple aim – to deliver a banking experience that keeps pace with you</div>
-                                    <div className={S.key}>Key offerings :  The brand offers headphones, earphones, speakers, to travel chargers & premium cables. </div>
+                                    <div className={S.hed}>{s}</div>
+                                    {/* <div className={S.key}>Key offerings :  The brand offers headphones, earphones, speakers, to travel chargers & premium cables. </div> */}
                                 </div>
                             </div>
                             <div className={S.card2}>
                                 <div className={S.m1}>
                                     <div className={S.st}>The Story</div>
                                     <div className={S.timlin}>
-                                        <div className={S.year}>
+                                        <div className={S.year1}>
                                             <div className={S.y}>2015</div>
                                             <div className={S.y}>2016</div>
                                             <div className={S.y}>2020</div>
@@ -84,7 +143,7 @@ export default function Home(props) {
                                         </div>
                                         <div className={S.tim}>
 
-                                            <div className={S.img}><Image src={tl} /> </div>
+                                            <div className={S.img}><Image src={(windowSize.width > 1300) ? tl : tl2} /> </div>
                                             <div className={S.cir}><Image src={dt}></Image></div>
                                             <div className={S.cir}><Image src={dt}></Image></div>
                                             <div className={S.cir}><Image src={dt}></Image></div>
@@ -95,7 +154,7 @@ export default function Home(props) {
                                         <div className={S.year}>
                                             <div className={S.y}>Founded</div>
                                             <div className={S.y}>First round(Rs 6cr)</div>
-                                            <div className={S.y}>5th largest in the world</div>
+                                            <div className={S.y}>launched slice card in partnership with Visaj</div>
                                             <div className={S.y}>$1.5B valuation</div>
 
                                         </div>
@@ -124,13 +183,13 @@ export default function Home(props) {
                                     <div className={S.st}>Key Investors</div>
                                     <div className={S.vt2}>Qualcomm Ventures | Warburg Pincus | InnoVen Capital | Navi Technologies</div>
                                     <div className={S.v}>
-                                        <button className={S.w}>
+                                        <a href={props.sp.LinkedIn} target="_blank" className={S.w}>
                                             <Image src={iw}></Image><div>Web</div>
-                                        </button>
-                                        <button className={S.w}>
+                                        </a>
+                                        <a href={props.sp.Website} target="_blank" className={S.w}>
                                             <Image src={il}></Image><div>Job Opening</div>
 
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

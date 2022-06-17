@@ -47,7 +47,7 @@ function Hometop() {
                         <div className={isActive ? styles.halfb1 : styles.b1}>
                             <div className={styles.boxheading}>Funding Tracker</div>
                             <div className={styles.boxcontent}>
-                                <div className={styles.svgs}><Image src={p1} /> <div style={{fontWeight: "500"}}>Pepper Content raised $14.3 M</div></div>
+                                <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
                                 <div className={styles.svgs}><Image src={p2} /> <div>Samudai web3 startup raised $2.5 M</div></div>
                                 <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div>
                             </div>

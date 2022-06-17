@@ -1,6 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/sf-pro-display');
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1300px) {
     .r1{
         display: flex;
         flex-direction: column;
@@ -13,7 +13,7 @@
         background-color: #F5F5F5;
         box-shadow: 0px 47px 154px rgba(0, 0, 0, 0.14), 0px 23.7938px 67.1344px rgba(0, 0, 0, 0.0945), 0px 9.4px 25.025px rgba(0, 0, 0, 0.07), 0px 2.05625px 8.90312px rgba(0, 0, 0, 0.0455);
         border-radius:  20px;
-        width: 90%;
+        width: 300px;
         }
         .log{
             width:100%;
@@ -35,7 +35,7 @@
         .container{
 
             background-color: #FFFFFF;
-            border-radius: 20px;
+            /* border-radius: 20px; */
             width: 100%;
             margin-left: auto;
             margin-right: auto;
@@ -103,7 +103,7 @@
                 .val{
                     display: flex;
                     flex-direction: row;
-                    justify-content: center;
+                    /* justify-content: center; */
                     column-gap: 20px;
                     width: 100%;
                     /* background-color: yellow; */
@@ -136,23 +136,42 @@
                         flex-direction: row;
                         column-gap: 20px;
                     }
+                    
                     .year{
                         display: flex;
                         flex-direction: column;
                         row-gap: 20px;
                         /* width: 100%; */
-                        margin-left: auto;
-                        margin-right: auto;
+                        
                         /* background-color: aqua; */
                         justify-content: space-between;
+                        width:70%;
+                        row-gap: 10px;
+                    }
+                    .year1{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 20px;
+                        /* width: 100%; */
+                       
+                        /* background-color: aqua; */
+                        justify-content: space-between;
+                        /* width: 20%; */
+                        white-space: pre-wrap;      /* Webkit */    
+                        white-space: -moz-pre-wrap; /* Firefox */     
+                        white-space: -pre-wrap;     /* Opera <7 */    
+                        white-space: -o-pre-wrap;   /* Opera 7 */     
+                        word-wrap: break-word; 
                     }
                     .timlin{
                         width:100%;
                         display: flex;
                         flex-direction: row;
-                        /* row-gap: 10px; */
-                        /* background-color: pink; */
+                        /* background-color: yellow; */
+                        /* justify-content: center;
+                         */
                         margin-top: 10px;
+                        column-gap: 10px;
                     }
                     .tim{
                         position: relative;
@@ -165,22 +184,22 @@
                         /* width: 100% */
                     }
                     .cir{
-                        /* width: 100%; */
+                        height: 70px;
                         /* background-color: blue; */
                         display: flex;
                         flex-direction: row;
-                        justify-content: center;
+                        align-items: flex-start;
+                        /* justify-content: center; */
                     }
                     .y{
-                        /* background-color: pink; */
-                        /* width:100%; */
-                        text-align: center;
+                        /* background-color: yellow; */
                         font-family: 'SF Pro Display';
                         font-style: normal;
                         font-weight: 500;
                         font-size: 20px;
                         line-height: 18px;
                         color: #000000;
+                        height: 70px;
                     }
                     .nws{
                         background: #FFFFFF;
@@ -200,7 +219,7 @@
                             row-gap: 20px;
                         }
 }
-@media screen and (min-width:1500px) {
+@media screen and (min-width:1300px) {
     .nar{
         display: flex;
         flex-direction: row;
@@ -228,10 +247,11 @@
         font-size: 15px;
         line-height: 18px;
         color: #000000;
+        
     }
     .cir{
         width: 25%;
-        /* background-color: blue; */
+        /* background-color: blue;  */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -252,10 +272,9 @@
         display: flex;
         flex-direction: column;
         row-gap: 10px;
-        /* background-color: pink; */
         margin-top: 10px;
     }
-    .year{
+    .year1{
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -263,6 +282,15 @@
         margin-right: auto;
         
         justify-content: space-between;
+    }
+    .year{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        /* background-color: aqua; */
     }
     .v{
         align-self: flex-end;
@@ -352,7 +380,7 @@
         background-color: #F5F5F5;
         box-shadow: 0px 47px 154px rgba(0, 0, 0, 0.14), 0px 23.7938px 67.1344px rgba(0, 0, 0, 0.0945), 0px 9.4px 25.025px rgba(0, 0, 0, 0.07), 0px 2.05625px 8.90312px rgba(0, 0, 0, 0.0455);
         border-radius: 0px 0px 20px 20px;
-        width: 30%;
+        width: 300px;
         
         }
         .card2{
@@ -439,6 +467,9 @@ color: rgba(0, 0, 0, 0.62);
 .uni{
 font-weight: 700;
 font-size: 20px;
+padding-left:8px ;
+font-family: 'SF Pro Display';
+font-style: normal;
 }
 .m1{
     display: flex;
@@ -482,7 +513,14 @@ align-items: center;
 column-gap: 5px;
 cursor: pointer;
 border: none;
+text-decoration: none !important;
 }
+.w:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+    
+
 .lin{
     background: rgba(67, 44, 206, 0.8);
 border-radius: 10px;
@@ -509,8 +547,10 @@ padding-left: 10px;
     position: absolute;
     /* background-color: yellow; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    width:100%;
+    /* background-color: aqua; */
     /* left: 5%; */
 }
 
