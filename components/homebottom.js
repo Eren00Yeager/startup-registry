@@ -85,7 +85,8 @@ const Homebottom=({comp})=>{
                             }
                         </Row>
                         <Row className={styles.headings}>
-                            <div>&emsp;Companies  &emsp;<span className={styles.demo}>{sector==''?'All':sector}</span>  &emsp;<span className={styles.demo}>{stage==''?'All':stage}</span></div>
+                            <div>&emsp;Companies</div><br/>
+                            <span style={{'fontWeight':'normal'}}>&emsp;Sector : <span className={styles.demo}>{sector==''?'All':sector}</span>&emsp;Stage : <span className={styles.demo}>{stage==''?'All':stage}</span></span>
                         </Row>
                         <Row>
                             <AllCards comp={companies}/>
@@ -135,7 +136,7 @@ const stages=['All'].concat([...new Set(comp.map(item => item['Stage']))])
                         </Form.Select>
                     </center>
                 </Row>
-                <Row style={{'backgroundColor':'white'}}>
+                <Row>
                     {
                         stages.map((stage,key)=>{
                             return(
@@ -152,7 +153,8 @@ const stages=['All'].concat([...new Set(comp.map(item => item['Stage']))])
                     }
                 </Row>
                 <Row className={styles2.headings}>
-                <div>&emsp;Companies  &emsp;<span className={styles.demo}>{sector==''?'All':sector}</span>  &emsp;<span className={styles.demo}>{stage==''?'All':stage}</span></div>
+                    <div>&emsp;Companies</div><br/>
+                    <span style={{'fontWeight':'normal'}}>&emsp;Sector : <span className={styles.demo}>{sector==''?'All':sector}</span>&emsp;Stage : <span className={styles.demo}>{stage==''?'All':stage}</span></span>
                 </Row>
                 <Row>
                     <center><AllCards comp={companies}/></center>
