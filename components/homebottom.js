@@ -138,7 +138,7 @@ const Homebottommobile=({comp})=>{
                         </Form.Select>
                     </center>
                 </Row>
-                <Row style={{'backgroundColor':'white'}}>
+                <Row>
                     {
                         stages.map((stage,key)=>{
                             return(
