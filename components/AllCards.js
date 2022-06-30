@@ -20,13 +20,16 @@ export default function AllCards({comp}) {
 
   return (
        <div> 
+
           <Card companies={currentComps}/>
+          
+
+            <Pagination 
+            compsPerPage={compsPerPage}
+            totalComps={comp.length}
+            paginate={paginate}
+          /> 
          
-         <Pagination 
-        compsPerPage={compsPerPage}
-        totalComps={comp.length}
-        paginate={paginate}
-      />
        </div>
   
   );
