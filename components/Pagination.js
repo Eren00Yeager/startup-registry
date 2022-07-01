@@ -1,4 +1,8 @@
+import Link from 'next/link';
 import React from 'react';
+import {Row,Col} from 'react-bootstrap'
+import styles from '../styles/card.module.css'
+
 
 const Pagination = ({ compsPerPage, totalComps, paginate }) => {
   const pageNumbers = [];
@@ -9,15 +13,16 @@ const Pagination = ({ compsPerPage, totalComps, paginate }) => {
 
   return (
     <nav>
-      <ul className='pagination'>
+      <ul className={`${styles.paginationComp} pagination`}>
         {pageNumbers.map(number => (
-          <li key={number} className='page-item' style={{'padding':'1vh'}}>
-            <a onClick={() => paginate(number)} className='page-link' style={{'backgroundColor':'#442ccec2','color':'white','borderRadius':'10px'}}>
+          <li key={number} className='page-item' style={{padding:'1vh'}}>
+            <a onClick={() => paginate(number)} className={`${styles.pageLink} page-link`} style={{'backgroundColor':'#442ccec2','color':'white','borderRadius':'10px'}}>
               {number}
             </a>
-          </li>
+          </li>  
         ))}
-      </ul>
+      </ul>  
+      
     </nav>
   );
 };

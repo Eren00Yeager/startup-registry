@@ -10,23 +10,16 @@
 }
 
 .Border{
-    transition-duration: 10s;
+    transition-property: height;
+    transition-duration: 3s;
     background: #FFFFFF;
     box-shadow: 4.82317px 48.762px 154px rgba(0, 0, 0, 0.0455), 2.44173px 24.6858px 67.1344px rgba(0, 0, 0, 0.07), 0.964635px 9.75241px 25.025px rgba(0, 0, 0, 0.0945), 0.211014px 2.13334px 8.90312px rgba(0, 0, 0, 0.14);
     border-radius: 23px;
+
     text-align: center;
 }
 
-.DivFlex{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    padding: 1em;
-    width: 100%;
-    text-align: center;
-    transition-duration: 2s;
-    align-items: stretch;
-}
+
 
 
 
@@ -39,34 +32,77 @@
 
 .allBoxes{
     flex-direction: column;
+    row-gap: 40px;
     width: 85%;
-    transition-duration: 1s;
+    /* transition-duration: 1s; */
 }
 
 
 .g{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    transition-duration: 2s;
-    
+    row-gap: 20px;
+    /* justify-content: space-between; */
+    /* transition-duration: 2s; */
+    padding-top: 1em;
 }
 
 .duration{
-    transition-duration: 1s;
+    /* transition-duration: 1s; */
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (min-width: 1000px)
 {
+    /* .DivFlex{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        hei
+        transition-property: height;
+        transition-duration: 10s;
+        /* align-items: stretch; */
+    /* } */ 
+    #box{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        text-align: center;
+        transition-property: height;
+        transition-duration: 3s;
+    }
+
+/* 
+    .HalfDivFlex{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        text-align: center;
+        transition: transform 2s;
+        /*  */
+        /* align-items: stretch; */
+    /* }  */
+
     .twoBoxes{
         padding-top: 1em;
         display: flex;
         flex-direction: row;
         column-gap: 1em;
         justify-content: space-around;
-        transition-duration: 2s;
+        /* transition-duration: 2s; */
     }
 
     .d1{
@@ -84,6 +120,13 @@
             font-size: 20px;
         }
 
+        .boxheading{
+            padding: 1em;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
         .svgs{
             display: flex;
             flex-direction: row;
@@ -95,34 +138,45 @@
         .b1{
             padding-left: 1em;
             width: 100%;
-            min-height: 358px;
+            height: 358px;
+            overflow: scroll;
             border-radius: 10px;
             /* margin-right: 2em; */
+
             background-color: #F4F4F4;
             text-align: left ;
-            transition-duration: 2s;
+            /* transition-duration: 2s; */
         }
         
-        .halfb1{
+        /* .halfb1{
             padding-left: 1em;
             width: 100%;
             min-height: 150px;
             border-radius: 10px;
             /* margin-right: 2em; */
-            background-color: #F4F4F4;
-            text-align: left ;
-            transition-duration: 2s;
-        }
+            /* background-color: #F4F4F4;
+            text-align: left ; */ 
+            /* transition-duration: 2s; */
+        /* } */
         
         .b2{
             width: 100%;
-            min-height: 285px;
+            height: 350px;
+            overflow: scroll;
             border-radius: 10px;    
             /* margin-right: 2em; */
             padding-left: 1em;
             background-color: #F4F4F4;
             text-align: left;
-            transition-duration: 2s;
+            /* transition-duration: 2s; */
+        }
+
+        .b1::-webkit-scrollbar {
+            display: none;
+        }
+
+        .b2::-webkit-scrollbar {
+            display: none;
         }
 
 
@@ -130,6 +184,46 @@
 
 @media screen and (max-width: 1000px)
 {
+    /* .DivFlex{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+        transition-duration: 2s;
+        /* align-items: stretch; */
+    /* }  */
+
+
+
+    /* .HalfDivFlex{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        width: 100%;
+        height: 160px;
+        overflow: hidden;
+        text-align: center;
+        transition-duration: 2s; */
+        /* align-items: stretch; */
+    /* } */
+
+
+    #box{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        text-align: center;
+        transition-property: height;
+        transition-duration: 3s;
+    }
+
     .twoBoxes{
         padding-top: 1em;
         display: flex;
@@ -142,16 +236,22 @@
     .d1{
         font-style: normal;
         font-weight: 500;
-        font-size: 11px;
+        font-size: 12px;
         color: rgba(92, 190, 91, 0.8);
         }
 
         .d1font{
-            font-size: 20px;
+            font-size: 30px;
         }
+
         .plusone{
-            font-size: 10px;
+            font-size: 13px;
         }
+
+        .card{
+            min-height: 150px;
+        }
+
 
         .g{
             /* padding: 0em 0em 1em 1em; */
@@ -166,46 +266,70 @@
             flex-direction: row;
             column-gap: 10px;
             font-weight: 500;
-            font-size: 14px;
+            font-size: 11px;
+            line-height: 13px;
+        }
+
+        .boxheading{
+            padding: 1em;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        .mimg{
+            width: 66px;
+            height: 33px;
         }
 
         .b1{
             padding-left: 1em;
             width: 100%;
-            min-height: 150px;
+            height: 150px;
+            overflow: scroll;
             border-radius: 10px;
             /* margin-right: 2em; */
             background-color: #F4F4F4;
             text-align: left ;
-            transition-duration: 2s;
+            /* transition-duration: 2s; */
         }
         
-        .halfb1{
+        /* .halfb1{
             padding-left: 1em;
             width: 100%;
             min-height: 150px;
             border-radius: 10px;
             /* margin-right: 2em; */
-            background-color: #F4F4F4;
-            text-align: left ;
-            transition-duration: 2s;
-        }
+            /* background-color: #F4F4F4;
+            text-align: left ; */ 
+            /* transition-duration: 2s; */
+        /* } */
         
         .b2{
             width: 100%;
-            min-height: 150px;
+            height: 150px;
+            overflow: scroll;
             border-radius: 10px;    
             /* margin-right: 2em; */
             padding-left: 1em;
             background-color: #F4F4F4;
             text-align: left;
-            transition-duration: 2s;
+            /* transition-duration: 2s; */
         }
 
+        .b1::-webkit-scrollbar {
+            display: none;
+        }
+
+        .b2::-webkit-scrollbar {
+            display: none;
+        }
+
+/* 
         .hide12{
             display: none;
-            transition-duration: 2s;
-        }
+            /* transition-duration: 2s; */
+        /* }  */
 
 }
 
@@ -216,16 +340,11 @@
     row-gap: 10px;
 }
 
-.boxheading{
-    padding: 1em;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-}
+
 
 .check{
     align-items: center;
-    padding: 0;
+    padding-top: 1em;
     border: none; 
     background: none;
     margin-bottom: 20px;

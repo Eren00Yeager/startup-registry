@@ -82,3 +82,15 @@ border: none;
 
 /* Pagination Styling Starts here */
 
+.paginationComp{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pageLink{
+  background-color: #442ccec2;
+  color: white;
+  border-radius: 10px;
+}
+
