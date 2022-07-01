@@ -27,7 +27,7 @@ const Homebottom=({comp})=>{
         });
         setCompanies(array)
         var unchecked=document.getElementsByTagName('button')
-        console.log(unchecked)
+        
       }
 
 
@@ -85,7 +85,10 @@ const Homebottom=({comp})=>{
                             }
                         </Row>
                         <Row className={styles.headings}>
-                            <div>&emsp;Companies  &emsp;<span className={styles.demo}>{sector==''?'All':sector}</span>  &emsp;<span className={styles.demo}>{stage==''?'All':stage}</span></div>
+                            <div>&emsp;Companies  
+                                &emsp;<span className={styles.demo}><span style={{'fontWeight':'normal'}}>Sector : </span>{sector==''?'All':sector}</span>  
+                                &emsp;<span className={styles.demo}><span style={{'fontWeight':'normal'}}>Stage : </span>{stage==''?'All':stage}</span>
+                            </div>
                         </Row>
                         <Row>
                             <AllCards comp={companies}/>
@@ -102,7 +105,7 @@ const Homebottommobile=({comp})=>{
 
     const sectors=['All'].concat([...new Set(comp.map(item => item['Sector']))].sort())
 
-const stages=['All'].concat([...new Set(comp.map(item => item['Stage']))])
+    const stages=['All'].concat([...new Set(comp.map(item => item['Stage']))])
 
     const [sector,setSector]=useState('');
     const [stage,setStage]=useState('');
@@ -135,7 +138,7 @@ const stages=['All'].concat([...new Set(comp.map(item => item['Stage']))])
                         </Form.Select>
                     </center>
                 </Row>
-                <Row style={{'backgroundColor':'white'}}>
+                <Row>
                     {
                         stages.map((stage,key)=>{
                             return(
@@ -152,7 +155,10 @@ const stages=['All'].concat([...new Set(comp.map(item => item['Stage']))])
                     }
                 </Row>
                 <Row className={styles2.headings}>
-                <div>&emsp;Companies  &emsp;<span className={styles.demo}>{sector==''?'All':sector}</span>  &emsp;<span className={styles.demo}>{stage==''?'All':stage}</span></div>
+                    <div>&emsp;Companies  <br/>
+                        &emsp;<span className={styles.demo}><span style={{'fontWeight':'normal'}}>Sector : </span>{sector==''?'All':sector}</span>  
+                        &emsp;<span className={styles.demo}><span style={{'fontWeight':'normal'}}>Stage : </span>{stage==''?'All':stage}</span>
+                    </div>                
                 </Row>
                 <Row>
                     <center><AllCards comp={companies}/></center>
