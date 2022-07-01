@@ -3,6 +3,9 @@
 //     domains: ['drive.google.com'],
 //   },
 // }
+{
+  swcMinify: false // it should be false by default 
+}
 
 
 /** @type {import('next').NextConfig} */

@@ -27,7 +27,7 @@ const home=()=>{
                     <Hometop/>
                 </Row>  
             </Container>
-            <Row style={{'padding':'3vh 0 3vh 0'}}>
+            {/* <Row style={{'padding':'3vh 0 3vh 0'}}>
                 <div className={styles.explore}><center>Explore</center></div> 
             </Row>
             <Row style={{'padding':'3vh 0 3vh 0'}}>
@@ -37,7 +37,7 @@ const home=()=>{
                 <div className="d-xs-block d-md-none">
                     <Homebottommobile comp={comp}/>
                 </div>    
-            </Row>
+            </Row> */}
         </div>
     );
 }
