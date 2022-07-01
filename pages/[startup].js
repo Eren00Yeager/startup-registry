@@ -1,23 +1,30 @@
-import comp from '../data/all_companies.json';
 import Link from "next/link";
 import Image from 'next/image';
+import {comp,isLoading} from './home.js';
 import styles from '../styles/Home.module.css';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import iw from "../pic/web.svg";
 import il from "../pic/lin.svg";
 import tl from "../pic/tim.svg";
 import bl from "../pic/bl.svg";
 import fn from "../pic/fun.svg";
+import nav from "../pic/nav.svg";
 import dt from "../pic/dot.svg";
 import S from "../styles/startup.module.css";
 import tl2 from "../pic/tim2.svg";
+import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from 'react';
-
+import axios from 'axios';
+import {Spinner } from "react-bootstrap";
 import SearchBar from '../components/SearchBar';
-export async function getStaticPaths() {
 
-    const paths = comp.map(sp => {
+export async function getStaticPaths() {
+    
+    const res = await fetch('http://localhost:3000/api/datasheets');
+    const data = await res.json();
+
+    const paths = data.map(sp => {
 
         return {
             params: {
@@ -34,31 +41,34 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-    const getPathProps = comp.filter(
+    const res = await fetch('http://localhost:3000/api/datasheets');
+    const data = await res.json();
+
+    const getPathProps = data.filter(
         (sp) => sp.Name === context.params.startup,
     );
     if (getPathProps.length > 0) {
         return {
             props: {
-                sp: getPathProps[0]
+                sp: getPathProps[0],
+                comp: data
             },
         };
     }
 }
 
-
-
-
-
-// Hook
-
-// Initialize state with undefined width/height so server and client renders match
-// Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
-
-
-
-
 export default function Home(props) {
+    
+    const SpinnerComp=()=>{
+        return(
+            <span style={{height:'100vh',marginTop:'45vh'}}>
+                <center style={{paddingTop:'45vh'}}>
+                    <Spinner animation="grow" style={{color:'rgba(67, 44, 206, 0.8)',height:'5vh',width:'5vh'}}/>
+                </center>
+            </span>
+        );
+    }
+
 
     const [windowSize, setWindowSize] = useState({
         width: "",
@@ -121,7 +131,7 @@ export default function Home(props) {
     const fun = () => {
         const main =
             Object.entries(obj).map(([key, value]) => {
-                if (Number(key.substr(key.indexOf("S") + 1)) > 0) {
+                if (Number(key.substr(key.indexOf("S") + 1)) > 0 && value!="") {
                     return (
                         <>
                             <div className={S.y}>{value.substr(0, 4)}</div>
@@ -135,7 +145,7 @@ export default function Home(props) {
     const fun1 = () => {
         const main =
             Object.entries(obj).map(([key, value]) => {
-                if (Number(key.substr(key.indexOf("S") + 1)) > 0) {
+                if (Number(key.substr(key.indexOf("S") + 1)) > 0 && value!="") {
                     return (
                         <>
                             <div className={S.cir}><Image src={dt}></Image></div>
@@ -149,7 +159,7 @@ export default function Home(props) {
     const fun2 = () => {
         const main =
             Object.entries(obj).map(([key, value]) => {
-                if (Number(key.substr(key.indexOf("S") + 1)) > 0) {
+                if (Number(key.substr(key.indexOf("S") + 1)) > 0 && value!="") {
                     if (value.indexOf(",") != -1) {
                         return (
                             <>
@@ -171,13 +181,14 @@ export default function Home(props) {
     }
     return (
         <>
-
+        
             <div className={S.bd}>
                 <Row style={{ 'padding': '3vh 0 3vh 0' }}>
                     <center><span className={styles.insidr}>insid<span style={{ 'color': '#432cce' }}>r</span></span></center>
                 </Row>
-                <SearchBar comp={comp} />
+                <SearchBar comp={props.comp} />
                 <div className={S.container}>
+                    <div style={{padding:"0 0 0 20px",cursor:"pointer"}}><Link href="/home"><Image src={nav}></Image></Link></div>
                     <div className={S.info}>
                         <div className={S.r1}>
                             <div className={S.card1}>
@@ -191,7 +202,7 @@ export default function Home(props) {
 
                                     />
                                 </div>
-                                <span className={S.uni}>{props.sp.Name} {props.sp.Stage == "Unicorn" ? "(Unicorn)" : ""}</span>
+                               <a href={props.sp.Website} target="_blank" className={S.naam}> <span className={S.uni}>{props.sp.Name} {props.sp.Stage == "Unicorn" ? "(Unicorn)" : ""}</span></a>
                                 <span className={S.uni}>{props.sp.Sector}</span>
                                 <div className={S.det}>
                                     <div className={S.hed}>{s}</div>
@@ -319,6 +330,7 @@ export default function Home(props) {
                 </div>
 
             </div>
+           
         </>
     )
 }

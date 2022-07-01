@@ -730,6 +730,7 @@ line-height: 26px;
 color: #383838;
 
 }
-
-
-
+.naam{
+    text-decoration: none;
+    color: #383838;
+}
