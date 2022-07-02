@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image';
-import {comp,isLoading} from './home.js';
+import { comp, isLoading } from './home.js';
 import styles from '../styles/Home.module.css';
 import styled from 'styled-components';
 import iw from "../pic/web.svg";
@@ -16,11 +16,11 @@ import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import {Spinner } from "react-bootstrap";
+import { Spinner } from "react-bootstrap";
 import SearchBar from '../components/SearchBar';
 
 export async function getStaticPaths() {
-    
+
     const res = await fetch('http://localhost:3000/api/datasheets');
     const data = await res.json();
 
@@ -58,12 +58,12 @@ export async function getStaticProps(context) {
 }
 
 export default function Home(props) {
-    
-    const SpinnerComp=()=>{
-        return(
-            <span style={{height:'100vh',marginTop:'45vh'}}>
-                <center style={{paddingTop:'45vh'}}>
-                    <Spinner animation="grow" style={{color:'rgba(67, 44, 206, 0.8)',height:'5vh',width:'5vh'}}/>
+
+    const SpinnerComp = () => {
+        return (
+            <span style={{ height: '100vh', marginTop: '45vh' }}>
+                <center style={{ paddingTop: '45vh' }}>
+                    <Spinner animation="grow" style={{ color: 'rgba(67, 44, 206, 0.8)', height: '5vh', width: '5vh' }} />
                 </center>
             </span>
         );
@@ -104,34 +104,35 @@ export default function Home(props) {
 
     const des = props.sp.Shortbrief;
     let s = "";
-    if(des){
-    const iterator = des[Symbol.iterator]();
-    let theChar = iterator.next();
-   
-    while (!theChar.done && (theChar.value !== '.' || (s.length < 10))) {
-        s = s + theChar.value
-        theChar = iterator.next();
-    }}
+    if (des) {
+        const iterator = des[Symbol.iterator]();
+        let theChar = iterator.next();
+
+        while (!theChar.done && (theChar.value !== '.' || (s.length < 10))) {
+            s = s + theChar.value
+            theChar = iterator.next();
+        }
+    }
     const des1 = props.sp.funding;
     let s1 = "";
-    if(des1){
-    const iterator1 = des1[Symbol.iterator]();
-    let theChar1 = iterator1.next();
-    
-    while (!theChar1.done && (theChar1.value !== 'B'&& theChar1.value !== 'M')) {
-        s1 = s1 + theChar1.value;
-        theChar1 = iterator1.next();
-        if(theChar1.value == 'B' || theChar1.value == 'M'){
+    if (des1) {
+        const iterator1 = des1[Symbol.iterator]();
+        let theChar1 = iterator1.next();
+
+        while (!theChar1.done && (theChar1.value !== 'B' && theChar1.value !== 'M')) {
             s1 = s1 + theChar1.value;
+            theChar1 = iterator1.next();
+            if (theChar1.value == 'B' || theChar1.value == 'M') {
+                s1 = s1 + theChar1.value;
+            }
+
         }
-        
     }
-}
 
     const fun = () => {
         const main =
             Object.entries(obj).map(([key, value]) => {
-                if (Number(key.substr(key.indexOf("S") + 1)) > 0 && value!="") {
+                if (Number(key.substr(key.indexOf("S") + 1)) > 0 && value != "") {
                     return (
                         <>
                             <div className={S.y}>{value.substr(0, 4)}</div>
@@ -145,7 +146,7 @@ export default function Home(props) {
     const fun1 = () => {
         const main =
             Object.entries(obj).map(([key, value]) => {
-                if (Number(key.substr(key.indexOf("S") + 1)) > 0 && value!="") {
+                if (Number(key.substr(key.indexOf("S") + 1)) > 0 && value != "") {
                     return (
                         <>
                             <div className={S.cir}><Image src={dt}></Image></div>
@@ -159,7 +160,7 @@ export default function Home(props) {
     const fun2 = () => {
         const main =
             Object.entries(obj).map(([key, value]) => {
-                if (Number(key.substr(key.indexOf("S") + 1)) > 0 && value!="") {
+                if (Number(key.substr(key.indexOf("S") + 1)) > 0 && value != "") {
                     if (value.indexOf(",") != -1) {
                         return (
                             <>
@@ -179,16 +180,49 @@ export default function Home(props) {
             })
         return main;
     }
+    const keyc = () => {
+        const keyc1 = props.comp.filter(st => st.Sector === props.sp.Sector && st.Valuation && st.Name != props.sp.Name);
+        if (keyc1.length) {
+
+            const ikey = keyc1.map((st) => {
+                return (
+                    <>
+                        <div className={`${S.krow}`}>
+                            <div className={S.nm}>{st.Name}</div>
+                            <div className={S.bil}>{st.Valuation}</div>
+                        </div>
+                        <div className={S.hr}><Image src={bl}></Image> </div>
+                    </>
+                )
+            })
+            return (
+                <div className={S.keycomp}>
+                <div className={S.kt}>Key Competitors</div>
+                <div className={S.ktab}>
+                    <div className={`${S.krow} ${S.spd}`}>
+                        <div className={`${S.nm1}`}>Startup Name</div>
+                        <div className={S.nm1}>Valuation</div>
+                    </div>
+                    <div className={S.ktab2}>
+                        {ikey}
+                    </div>
+                    </div>
+                    </div>
+
+
+            )
+        }
+    }
     return (
         <>
-        
+
             <div className={S.bd}>
                 <Row style={{ 'padding': '3vh 0 3vh 0' }}>
                     <center><span className={styles.insidr}>insid<span style={{ 'color': '#432cce' }}>r</span></span></center>
                 </Row>
                 <SearchBar comp={props.comp} />
                 <div className={S.container}>
-                    <div style={{padding:"0 0 0 20px",cursor:"pointer"}}><Link href="/home"><Image src={nav}></Image></Link></div>
+                    <div style={{ padding: "0 0 0 20px", cursor: "pointer" }}><Link href="/home"><Image src={nav}></Image></Link></div>
                     <div className={S.info}>
                         <div className={S.r1}>
                             <div className={S.card1}>
@@ -202,7 +236,7 @@ export default function Home(props) {
 
                                     />
                                 </div>
-                               <a href={props.sp.Website} target="_blank" className={S.naam}> <span className={S.uni}>{props.sp.Name} {props.sp.Stage == "Unicorn" ? "(Unicorn)" : ""}</span></a>
+                                <a href={props.sp.Website} target="_blank" className={S.naam}> <span className={S.uni}>{props.sp.Name} {props.sp.Stage == "Unicorn" ? "(Unicorn)" : ""}</span></a>
                                 <span className={S.uni}>{props.sp.Sector}</span>
                                 <div className={S.det}>
                                     <div className={S.hed}>{s}</div>
@@ -217,11 +251,11 @@ export default function Home(props) {
                                             {fun()}
                                         </div>
                                         <div className={S.tim}>
-                                            
-                                            {(windowSize.width > 1300) ? 
-                                            <div className={S.img}><Image src={tl}></Image></div>
-                                            :
-                                            <div style={{width:"4px",height:'100%', position: 'absolute' }} className={S.img}></div>
+
+                                            {(windowSize.width > 1300) ?
+                                                <div className={S.img}><Image src={tl}></Image></div>
+                                                :
+                                                <div style={{ width: "4px", height: '100%', position: 'absolute' }} className={S.img}></div>
                                             }
                                             {fun1()}
                                         </div>
@@ -232,25 +266,25 @@ export default function Home(props) {
 
 
                                 </div>
-                                    
-                                      {obj.funding || obj.Valuation ?
-                                      <div className={S.m1}>
-                                      <div className={S.st}>Key Metrics</div>
-                                      <div className={S.val}>
-                                      <div className={S.v1}>
-                                      {obj.Valuation ? <div className={S.vt}>Valuation</div> : ""} 
-                                      {obj.funding ? <div className={S.vt}>Funds raised</div> : ""}
-                                   </div>
-                                   <div className={S.v1}>
-                                      {obj.Valuation ? <div className={S.vt1}>{obj.Valuation}</div>: ""} 
-                                      {obj.funding ? <div className={S.vt1}>{s1}</div> : "" }
 
-                                   </div>
-                                   </div>
-                                   </div>
-                                      : ""}  
-                                    
-                                
+                                {obj.funding || obj.Valuation ?
+                                    <div className={S.m1}>
+                                        <div className={S.st}>Key Metrics</div>
+                                        <div className={S.val}>
+                                            <div className={S.v1}>
+                                                {obj.Valuation ? <div className={S.vt}>Valuation</div> : ""}
+                                                {obj.funding ? <div className={S.vt}>Funds raised</div> : ""}
+                                            </div>
+                                            <div className={S.v1}>
+                                                {obj.Valuation ? <div className={S.vt1}>{obj.Valuation}</div> : ""}
+                                                {obj.funding ? <div className={S.vt1}>{s1}</div> : ""}
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    : ""}
+
+
                                 <div className={S.m2}>
                                     {/* <div className={S.st}>Key Investors</div>
                                     <div className={S.vt2}>Qualcomm Ventures | Warburg Pincus | InnoVen Capital | Navi Technologies</div> */}
@@ -287,32 +321,7 @@ export default function Home(props) {
                                 </div>
 
                             </div> */}
-                            <div className={S.keycomp}>
-                                <div className={S.kt}>Key Competitors</div>
-                                <div className={S.ktab}>
-                                    <div className={`${S.krow} ${S.spd}`}>
-                                        <div className={`${S.nm1}`}>Startup Name</div>
-                                        <div className={S.nm1}>Valuation</div>
-                                    </div>
-                                    <div className={S.ktab2}>
-                                        <div className={`${S.krow}`}>
-                                            <div className={S.nm}>Boat</div>
-                                            <div className={S.bil}>$1.5B</div>
-                                        </div>
-                                        <div className={S.hr}><Image src={bl}></Image> </div>
-                                        <div className={S.krow}>
-                                            <div className={S.nm}>Mivi</div>
-                                            <div className={S.bil}>$66M</div>
-                                        </div>
-                                        <div className={S.hr}><Image src={bl}></Image> </div>
-                                        <div className={S.krow}>
-                                            <div className={S.nm}>Noise</div>
-                                            <div className={S.bil}>$100M</div>
-                                        </div>
-                                        <div className={S.hr}><Image src={bl}></Image> </div>
-                                    </div>
-                                </div>
-                            </div>
+                            {keyc()}
 
                         </div>
                         {/* <div className={S.fn}>
@@ -330,7 +339,7 @@ export default function Home(props) {
                 </div>
 
             </div>
-           
+
         </>
     )
 }
