@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import comp from "../data/all_companies.json";
+import React, { useState} from 'react';
 import Card from "../components/Card";
 import Pagination from "../components/Pagination";
 

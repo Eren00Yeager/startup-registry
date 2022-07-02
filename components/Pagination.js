@@ -1,6 +1,4 @@
-import Link from 'next/link';
 import React from 'react';
-import {Row,Col} from 'react-bootstrap'
 import styles from '../styles/card.module.css'
 
 

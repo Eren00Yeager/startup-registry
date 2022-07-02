@@ -7,6 +7,18 @@ const IndvCard = ({ data }) => {
    let str = data.Logo;
    str = str.slice(32, 65);
 
+   let str2 = data.Shortbrief;
+   let s = "";
+   if(str2){
+   const iterator = str2[Symbol.iterator]();
+   let theChar = iterator.next();
+  
+   while (!theChar.done && (theChar.value !== '.' || (s.length < 10))) {
+       s = s + theChar.value
+       theChar = iterator.next();
+   }}
+  
+
   return (
     <Link href={`/${data.Name}`}>
      <button className={styles.forButton}>
@@ -19,15 +31,14 @@ const IndvCard = ({ data }) => {
       height={500}
     />
       
-        <div className={styles.Valuation}>$120</div>
+        <div className={styles.Valuation}>{data.Valuation}</div>
         <div className={styles.headPtext}>{data.Name}
         </div>
-        <div className={styles.pText}>{data.Sector}</div>
-        <div className={styles.pText}>{data.Stage}</div>
-        <div className={styles.pText}>boAt is the world's 5th largest wearable brand along with India’s No.1 Earwear brand.</div>
+        <div className={styles.pText1}>{data.Sector}</div>
+        <div className={styles.pText1}>{data.Stage}</div>
+        <p className={styles.pText}>{`${s}`}</p>
       </div>
       </button>
-
     </Link>
   );
 };
