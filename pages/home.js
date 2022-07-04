@@ -1,5 +1,4 @@
 import {Homebottom,Homebottommobile} from "../components/homebottom";
-import AllCards from "../components/AllCards";
 import styles from '../styles/Home.module.css';
 import SearchBar from "../components/SearchBar";
 import Hometop from "../components/hometop";

@@ -32,10 +32,7 @@ const IndvCard = ({ data }) => {
     />
       
         <div className={styles.Valuation}>{data.Valuation}</div>
-        <div className={styles.headPtext}>{data.Name}
-        </div>
-        <div className={styles.pText1}>{data.Sector}</div>
-        <div className={styles.pText1}>{data.Stage}</div>
+        <div className={styles.headPtext}>{data.Stage}</div>
         <p className={styles.pText}>{`${s}`}</p>
       </div>
       </button>
