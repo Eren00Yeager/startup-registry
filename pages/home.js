@@ -16,7 +16,7 @@ const SpinnerComp=()=>{
     );
 }
 
-const home=()=>{
+const Main=()=>{
     const [comp,setComp]=useState('')
     const [isLoading,setIsLoading]=useState(true)
 
@@ -66,4 +66,4 @@ const home=()=>{
     );
 }
 
-export default home;
+export default Main;
