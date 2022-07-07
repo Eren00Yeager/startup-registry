@@ -319,12 +319,12 @@
     font-size: 17px;
     line-height: 20px;
     /* background-color: aqua; */
-    width: 25%;
+    width: 50%;
     color: #000000;
     }
     
     .vt1{
-        width: 25%; 
+        width: 50%; 
         font-family: 'SF Pro Display';
         font-style: normal;
         font-weight: 600;

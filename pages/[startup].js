@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image';
-import { comp, isLoading } from './home.js';
+// import { comp, isLoading } from './home.js';/
 import styles from '../styles/Home.module.css';
 import styled from 'styled-components';
 import iw from "../pic/web.svg";
