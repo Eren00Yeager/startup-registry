@@ -16,7 +16,8 @@ const Main=({comp,Key,News,setSinglecomp})=>{
                     <Hometop keynum={Key} News= {News}/>
                 </Row>  
             </Container>
-            <Row style={{'padding':'3vh 0 3vh 0'}}>
+            <br/>
+            <Row >
                 <div className={styles.explore}><center>Explore</center></div> 
             </Row>
             <Row style={{'padding':'3vh 0 3vh 0'}}>

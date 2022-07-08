@@ -1,8 +1,13 @@
 .headings{
     padding-top: 3vh;
     padding-bottom: 3vh;
-    font-size: 20px;
-    font-weight: bold;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+
+color: #383838;
 }
 
 
@@ -20,18 +25,32 @@
 .sidebarrows{
     background-color: #F4F4F4;
     border-radius: 10px;
-    width: 80%;
+    border: none;
+    width: 90%;
     margin-bottom: 1vh;
     padding: 1vh;
     text-align: left!important;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
 }
 
 .rightbarcols{
     background-color: #D9D9D9;
     border-radius: 10px;
     width: 100%;
-    padding: 0.5vh; 
+    padding: 1vh; 
+    border: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
     font-size: 17px;
+    line-height: 20px;
 }
 
 .sidebarrows:hover,.sidebarrows:active,.sidebarrows:focus,.sidebarrows:checked
