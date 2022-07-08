@@ -104,7 +104,7 @@ function Hometop({keynum, News}) {
     }
 
     return (
-
+    <div>
         <div className={styles.Border}>
             <div id= {styles.box}>
                 <div className={styles.g}>
@@ -157,9 +157,6 @@ function Hometop({keynum, News}) {
                                     )
                                     }
                                 })}
-                                {/* 
-                                <div className={styles.svgs}>{windowSize.width > 1000 ? <Image src={p2} />:<Image height={"20px"} width={"20px"} src={p2} />}<div className={styles.content}>Samudai web3 startup raised $2.5 M </div></div>
-                                <div className={styles.svgs}>{windowSize.width > 1000 ? <Image src={p3} />:<Image height={"20px"} width={"20px"} src={p3} />}<div className={styles.content}>Fintech startup Jiraaf raised $7.5M</div></div> */}
                             </div>
                         </div>
                         <div className={styles.b1}>
@@ -172,9 +169,6 @@ function Hometop({keynum, News}) {
                                     )
                                     }
                                 })}
-                                {/* <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
-                                <div className={styles.svgs}><Image src={p2} /> <div>Samudai web3 startup raised $2.5 M</div></div>
-                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div> */}
                             </div>
                         </div>
                     </div>
@@ -189,9 +183,6 @@ function Hometop({keynum, News}) {
                                     )
                                     }
                                 })}
-                                {/* <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
-                                <div className={styles.svgs}><Image src={p2} /> <div>Samudai web3 startup raised $2.5 M</div></div>
-                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div> */}
                             </div>
                         </div>
                         <div className={styles.b2}>
@@ -204,9 +195,6 @@ function Hometop({keynum, News}) {
                                     )
                                     }
                                 })}
-                                {/* <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
-                                <div className={styles.svgs}><Image src={p2} /> <div>Samudai web3 startup raised $2.5 M</div></div>
-                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div> */}
                             </div>
                         </div>
                     </div>
@@ -214,7 +202,7 @@ function Hometop({keynum, News}) {
             </div>
             <button className={styles.check} onClick={ToggleClass}><div className={styles.check2}>Nerd {Text}! <div><Image src={isActive ? plus : minus} /></div></div></button>
         </div>
-
+    </div>
 
 
     );
