@@ -1,4 +1,7 @@
-@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+@font-face {
+  font-family: insidrFont;
+  src: url('../font/SFPRODISPLAYMEDIUM.OTF')  format('truetype');
+}
 
 @media screen and (max-width: 500px) {
   .colFlex2 {
@@ -30,7 +33,7 @@
     color: white;
     background-color: #432cce;
 
-    font-family: "SF Pro Display";
+    font-family: insidrFont;
     font-style: normal;
     font-weight: 500;
     font-size: 2.551vw;
@@ -39,7 +42,7 @@
 
   .headPtext {
     text-align: left;
-    font-family: "SF Pro Display";
+    font-family: insidrFont;
     font-style: normal;
     font-weight: 700;
     font-size: 3.846vw;
@@ -58,7 +61,7 @@
     padding-bottom: 1.5vw;
     margin-top: 0.3vw;
 
-    font-family: "SF Pro Display";
+    font-family: insidrFont;
     font-style: normal;
     font-weight: 500;
     font-size: 3.333vw;
@@ -102,7 +105,7 @@
     padding-left: 0.8em;
     padding-right: 0.8em;
 
-    font-family: "SF Pro Display";
+    font-family: insidrFont;
     font-style: normal;
     font-weight: 500;
     font-size: 0.894vw;
@@ -134,7 +137,7 @@
     margin-bottom: 1em;
     margin-top: 0.7em;
 
-    font-family: "SF Pro Display";
+    font-family: insidrFont;
     font-weight: 500;
     font-size: 1.058vw;
     line-height: 1.323vw;

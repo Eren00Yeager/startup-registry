@@ -1,7 +1,10 @@
-@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+@font-face {
+  font-family: insidrFont;
+  src: url('../font/SFPRODISPLAYMEDIUM.OTF')  format('truetype');
+}
 
 .explore{
-  font-family: 'SF Pro Display';
+  font-family: insidrFont;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -9,7 +12,7 @@
 }
 
 .insidr{
-  font-family: 'SF Pro Display';
+  font-family: insidrFont;
   font-style: normal;
   font-weight: 700;
   font-size: 45px;

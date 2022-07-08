@@ -1,10 +1,13 @@
-@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+@font-face {
+  font-family: insidrFont;
+  src: url('../font/SFPRODISPLAYMEDIUM.OTF')  format('truetype');
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'SF Pro Display';
+  font-family: insidrFont;
   overflow-x: hidden;
 }
 

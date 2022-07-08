@@ -1,4 +1,7 @@
-@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+@font-face {
+  font-family: insidrFont;
+  src: url('../font/SFPRODISPLAYMEDIUM.OTF')  format('truetype');
+}
 
 
 .App {
@@ -100,7 +103,7 @@ padding:20px 0px 20px 40px;
 }
 
 .search{
-  font-family: 'SF Pro Display';
+  font-family: insidrFont;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
