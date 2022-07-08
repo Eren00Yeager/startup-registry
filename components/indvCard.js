@@ -25,7 +25,7 @@ const IndvCard = ({ data,setSinglecomp }) => {
       <div className={styles.colFlex2}>
       <Image
     className={styles.forImage}
-      src={`http://drive.google.com/uc?export=view&id=${str}`}
+      src={`https://drive.google.com/uc?export=view&id=${str}`}
       alt="Picture of the author"
       width={500}
       height={500}
