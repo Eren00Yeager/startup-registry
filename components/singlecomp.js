@@ -184,7 +184,7 @@ export default function SingleComp(props) {
 
                                     />
                                 </div>
-                                <a href={props.sp.Website} tclassName={S.naam}> <span className={S.uni}>{props.sp.Name} {props.sp.Stage == "Unicorn" ? "(Unicorn)" : ""}</span></a>
+                                <a href={props.sp.Website} className={S.naam}> <span className={S.uni}>{props.sp.Name} {props.sp.Stage == "Unicorn" ? "(Unicorn)" : ""}</span></a>
                                 <span className={S.uni}>{props.sp.Sector}</span>
                                 <div className={S.det}>
                                     <div className={S.hed}>{s}</div>
