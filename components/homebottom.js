@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 
 
 
-const Homebottom=({comp})=>{
+const Homebottom=({comp,setSinglecomp})=>{
 
     const sectors=['All'].concat([...new Set(comp.map(item => item['Sector']))].sort())
 
@@ -91,7 +91,7 @@ const Homebottom=({comp})=>{
                             </div>
                         </Row>
                         <Row>
-                            <AllCards comp={companies}/>
+                            <AllCards comp={companies} setSinglecomp={setSinglecomp}/>
                         </Row>
                     </div>
                 </Col>
@@ -101,7 +101,7 @@ const Homebottom=({comp})=>{
     );
 }
 
-const Homebottommobile=({comp})=>{
+const Homebottommobile=({comp,setSinglecomp})=>{
 
     const sectors=['All'].concat([...new Set(comp.map(item => item['Sector']))].sort())
 
@@ -161,7 +161,7 @@ const Homebottommobile=({comp})=>{
                     </div>                
                 </Row>
                 <Row>
-                    <center><AllCards comp={companies}/></center>
+                    <center><AllCards comp={companies} setSinglecomp={setSinglecomp}/></center>
                 </Row>
             </Container>
         </div>

@@ -19,55 +19,8 @@ import axios from 'axios';
 import { Spinner } from "react-bootstrap";
 import SearchBar from '../components/SearchBar';
 
-export async function getStaticPaths() {
 
-    const res = await fetch('http://localhost:3000/api/datasheets');
-    const data = await res.json();
-
-    const paths = data.map(sp => {
-
-        return {
-            params: {
-                startup: sp.Name,
-            }
-        }
-
-    })
-    return {
-        paths,
-        fallback: false
-    }
-
-}
-
-export async function getStaticProps(context) {
-    const res = await fetch('http://localhost:3000/api/datasheets');
-    const data = await res.json();
-
-    const getPathProps = data.filter(
-        (sp) => sp.Name === context.params.startup,
-    );
-    if (getPathProps.length > 0) {
-        return {
-            props: {
-                sp: getPathProps[0],
-                comp: data
-            },
-        };
-    }
-}
-
-export default function Home(props) {
-
-    const SpinnerComp = () => {
-        return (
-            <span style={{ height: '100vh', marginTop: '45vh' }}>
-                <center style={{ paddingTop: '45vh' }}>
-                    <Spinner animation="grow" style={{ color: 'rgba(67, 44, 206, 0.8)', height: '5vh', width: '5vh' }} />
-                </center>
-            </span>
-        );
-    }
+export default function SingleComp(props) {
 
 
     const [windowSize, setWindowSize] = useState({
@@ -217,12 +170,8 @@ export default function Home(props) {
         <>
 
             <div className={S.bd}>
-                <Row style={{ 'padding': '3vh 0 3vh 0' }}>
-                    <center><span className={styles.insidr}>insid<span style={{ 'color': '#432cce' }}>r</span></span></center>
-                </Row>
-                <SearchBar comp={props.comp} />
                 <div className={S.container}>
-                    <div style={{ padding: "0 0 0 20px", cursor: "pointer" }}><Link href="/home"><Image src={nav}></Image></Link></div>
+                    <div style={{ padding: "0 0 0 20px", cursor: "pointer" }}><div onClick={()=>props.setSinglecomp('')}><Image src={nav}></Image></div></div>
                     <div className={S.info}>
                         <div className={S.r1}>
                             <div className={S.card1}>
@@ -236,7 +185,7 @@ export default function Home(props) {
 
                                     />
                                 </div>
-                                <a href={props.sp.Website} target="_blank" className={S.naam}> <span className={S.uni}>{props.sp.Name} {props.sp.Stage == "Unicorn" ? "(Unicorn)" : ""}</span></a>
+                                <a href={props.sp.Website} tclassName={S.naam}> <span className={S.uni}>{props.sp.Name} {props.sp.Stage == "Unicorn" ? "(Unicorn)" : ""}</span></a>
                                 <span className={S.uni}>{props.sp.Sector}</span>
                                 <div className={S.det}>
                                     <div className={S.hed}>{s}</div>
@@ -289,10 +238,10 @@ export default function Home(props) {
                                     {/* <div className={S.st}>Key Investors</div>
                                     <div className={S.vt2}>Qualcomm Ventures | Warburg Pincus | InnoVen Capital | Navi Technologies</div> */}
                                     <div className={S.v}>
-                                        <a href={props.sp.Website} target="_blank" className={S.w}>
+                                        <a href={props.sp.Website} className={S.w}>
                                             <Image src={iw}></Image><div>Web</div>
                                         </a>
-                                        <a href={props.sp.LinkedIn} target="_blank" className={S.w}>
+                                        <a href={props.sp.LinkedIn} className={S.w}>
                                             <Image src={il}></Image><div>Job Opening</div>
 
                                         </a>

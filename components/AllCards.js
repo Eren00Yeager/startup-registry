@@ -3,7 +3,7 @@ import Card from "../components/Card";
 import Pagination from "../components/Pagination";
 
   
-export default function AllCards({comp}) {
+export default function AllCards({comp,setSinglecomp}) {
 
   const [currentPage, setCurrentPage] = useState(1);
   const [compsPerPage] = useState(6);
@@ -20,7 +20,7 @@ export default function AllCards({comp}) {
   return (
        <div> 
 
-          <Card companies={currentComps}/>
+          <Card companies={currentComps} setSinglecomp={setSinglecomp}/>
           
 
             <Pagination 

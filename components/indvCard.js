@@ -2,7 +2,7 @@ import styles from "../styles/card.module.css";
 import Link from "next/link";
 import Image from 'next/image';
 
-const IndvCard = ({ data }) => {
+const IndvCard = ({ data,setSinglecomp }) => {
 
    let str = data.Logo;
    str = str.slice(32, 65);
@@ -20,7 +20,7 @@ const IndvCard = ({ data }) => {
   
 
   return (
-    <Link href={`/${data.Name}`}>
+    <div onClick={()=>setSinglecomp(data)}>
      <button className={styles.forButton}>
       <div className={styles.colFlex2}>
       <Image
@@ -32,11 +32,11 @@ const IndvCard = ({ data }) => {
     />
       
         <div className={styles.Valuation}>{data.Valuation}</div>
-        <div className={styles.headPtext}>{data.Stage}</div>
+        <div className={styles.headPtext}>{data.Name}</div>
         <p className={styles.pText}>{`${s}`}</p>
       </div>
       </button>
-    </Link>
+    </div>
   );
 };
 
