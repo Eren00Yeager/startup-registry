@@ -18,58 +18,53 @@ const SpinnerComp=()=>{
     );
 }
 
+
+
 const Home=()=>{
     const [comp,setComp]=useState('');
     const [Key,setkey]=useState('');
     const [News,setNews]=useState('');
     const [singlecomp,setSinglecomp]=useState('');
-    const [isLoading,setIsLoading]=useState(true);
-
-    // useEffect(() =>{
-        
-    // }, []);
 
 
     useEffect(() => {
         axios
           .get("/api/datasheets")
           .then((res) => {
-            console.log(res.data)
-            setComp(res.data);
-            setIsLoading(false)
+            setComp(res.data)
           })
           .catch((err)=>{
-            console.log("error")
+            console.log("error in datasheets")
             console.log(err)
           });
           
-          axios.get("/api/keynumbers")
+        axios
+          .get("/api/keynumbers")
           .then((e) => {
-            console.log(e.data)
-            setkey(e.data);
-
+            setkey(e.data)
           })
           .catch((err)=>{
-            console.log("error")
+            console.log("error in keynumbers")
             console.log(err)
           });
 
-          axios.get("/api/newstrack")
+        axios
+          .get("/api/newstrack")
           .then((e) => {
-            console.log(e.data)
-            setNews(e.data);
-
+            setNews(e.data)
           })
           .catch((err)=>{
-            console.log("error")
+            console.log("error in newstrack")
             console.log(err)
           });
 
       }, []);
+
+
     
     return(
         <>
-        {isLoading? <SpinnerComp/>:
+        {(!comp || !Key || !News)? <SpinnerComp/>:
         <div style={{'backgroundColor':'#F5F5F5'}}>
             <Row style={{'padding':'3vh 0 3vh 0'}}>
                 <center><span className={styles.insidr}>insid<span style={{'color':'#432cce'}}>r</span></span></center>

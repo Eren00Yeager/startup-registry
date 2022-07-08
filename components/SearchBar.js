@@ -5,6 +5,8 @@ import search from '../pic/search.svg';
 import searchStyles from "../styles/searchbar.module.css";
 
 const SearchBar = ({ comp,setSinglecomp }) => {
+  console.log("inside Searchbsr")
+  console.log(comp)
   const router = useRouter();
   const [companyToSearch, setCompanySearch] = useState("");
   const changedSearch = (event) => {
