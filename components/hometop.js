@@ -10,7 +10,7 @@ import p3 from "../images/p3.svg";
 import plus from "../images/plus.svg";
 import minus from "../images/minus.svg";
 
-function Hometop() {
+function Hometop({keynum, News}) {
     
     const [windowSize, setWindowSize] = useState({
         width: "",
@@ -56,10 +56,10 @@ function Hometop() {
         }
         else{
             if(isActive){
-                document.getElementById(styles.box).style= "height: 700px";
+                document.getElementById(styles.box).style= "height: 500px";
             }
             else{
-                document.getElementById(styles.box).style= "height:180px";    
+                document.getElementById(styles.box).style= "height:130px";    
             }
         }
        
@@ -67,14 +67,50 @@ function Hometop() {
     };
 
 
+
+    let oneplus1p= keynum[4];
+    let ok1p= true;
+    if(oneplus1p.length == 0 || (oneplus1p.length == 1 && oneplus1p[0]=='0'))
+    {
+        ok1p= false;
+    }
+
+    let oneplus1n= keynum[5];
+    let ok1n= true;
+    if(oneplus1n.length == 0 || (oneplus1n.length == 1 && oneplus1n[0]=='0'))
+    {
+        ok1n= false;
+    }
+
+    let oneplus2p= keynum[6];
+    let ok2p= true;
+    if(oneplus2p.length == 0 || (oneplus2p.length == 1 && oneplus2p[0]=='0'))
+    {
+        ok2p= false;
+    }
+
+    let oneplus2n= keynum[7];
+    let ok2n= true;
+    if(oneplus2n.length == 0 || (oneplus2n.length == 1 && oneplus2n[0]=='0'))
+    {
+        ok2n= false;
+    }
+
+    let nut= keynum[3];
+    let oknut= true;
+    if(nut.length == 1 && nut[0] == '0')
+    {
+        oknut= false;
+    }
+
     return (
 
         <div className={styles.Border}>
-            <div id= {styles.box} >
+            <div id= {styles.box}>
                 <div className={styles.g}>
                     <div className={styles.card}>
                         <div className={styles.d1}>Total Unicorns</div>
-                        <div className={styles.d1font} >100<span className={styles.plusone}>+1</span></div>
+                        <div className={styles.d1font} >{keynum[0]}<span className={styles.plusone}> {ok1p ? <>+{oneplus1p}</> : ok1n ? <>-{oneplus1n}</> : ""}</span></div>
                         {windowSize.width > 1000 
                          ? 
                          <Image src={g1} />
@@ -84,8 +120,8 @@ function Hometop() {
                     </div>
                     {/* <div className={isActive ? styles.hide : styles.duration}> */}
                     <div className={styles.card}>
-                        <div className={styles.d1}>Total Unicorns</div>
-                        <div className={styles.d1font} >100<span className={styles.plusone}>+1</span></div>
+                        <div className={styles.d2}>Total Funds Raised</div>
+                        <div className={styles.d2font} >${keynum[1]}<span className={styles.plusone}>Bn</span></div>
                         {windowSize.width > 1000 
                          ? 
                          <Image src={g2} />
@@ -94,8 +130,8 @@ function Hometop() {
                           }
                     </div>
                     <div className={styles.card}>
-                        <div className={styles.d1}>Total Unicorns</div>
-                        <div className={styles.d1font} >100<span className={styles.plusone}>+1</span></div>
+                        <div className={styles.d3}>Total  Startups</div>
+                        <div className={styles.d3font} >{keynum[2]}<span className={styles.plusone}> {ok2p ? <>+{oneplus2p}</> : ok2n ? <>-{oneplus2n}</> : ""}</span></div>
                         {windowSize.width > 1000 
                          ? 
                          <Image src={g3} />
@@ -104,8 +140,8 @@ function Hometop() {
                           }
                     </div>
                     <div className={styles.card}>
-                        <div className={styles.d1}>Total Unicorns</div>
-                        <div className={styles.d1font} >100<span className={styles.plusone}>+1</span></div>
+                        <div className={styles.d4}>About to be Unicorns</div>
+                        <div className={styles.d4font} >{keynum[3]}<span className={styles.plusone}>{oknut ? <>+</> : ""}</span></div>
                     </div>
                     {/* </div> */}
                 </div>
@@ -114,17 +150,31 @@ function Hometop() {
                         <div className={styles.b1}>
                             <div className={styles.boxheading}>Funding Tracker</div>
                             <div className={styles.boxcontent}>
-                                <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
-                                <div className={styles.svgs}><Image src={p2} /> <div>Samudai web3 startup raised $2.5 M</div></div>
-                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div>
+                                {News.map((item,key)=>{
+                                    if(key!=0){
+                                    return(
+                                        <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} />}<div className={styles.content}>{item[0]}</div></div>
+                                    )
+                                    }
+                                })}
+                                {/* 
+                                <div className={styles.svgs}>{windowSize.width > 1000 ? <Image src={p2} />:<Image height={"20px"} width={"20px"} src={p2} />}<div className={styles.content}>Samudai web3 startup raised $2.5 M </div></div>
+                                <div className={styles.svgs}>{windowSize.width > 1000 ? <Image src={p3} />:<Image height={"20px"} width={"20px"} src={p3} />}<div className={styles.content}>Fintech startup Jiraaf raised $7.5M</div></div> */}
                             </div>
                         </div>
                         <div className={styles.b1}>
                             <div className={styles.boxheading}>Startup of the Week</div>
                             <div className={styles.boxcontent}>
-                                <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
+                            {News.map((item,key)=>{
+                                    if(key!=0){
+                                    return(
+                                        <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"}  src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} />}<div className={styles.content}>{item[1]}</div></div>
+                                    )
+                                    }
+                                })}
+                                {/* <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
                                 <div className={styles.svgs}><Image src={p2} /> <div>Samudai web3 startup raised $2.5 M</div></div>
-                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div>
+                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div> */}
                             </div>
                         </div>
                     </div>
@@ -132,17 +182,31 @@ function Hometop() {
                         <div className={styles.b2}>
                             <div className={styles.boxheading}>Startups in News</div>
                             <div className={styles.boxcontent}>
-                                <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
+                            {News.map((item,key)=>{
+                                    if(key!=0){
+                                    return(
+                                    <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} />}<div className={styles.content}>{item[2]}</div></div>
+                                    )
+                                    }
+                                })}
+                                {/* <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
                                 <div className={styles.svgs}><Image src={p2} /> <div>Samudai web3 startup raised $2.5 M</div></div>
-                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div>
+                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div> */}
                             </div>
                         </div>
                         <div className={styles.b2}>
-                            <div className={styles.boxheading}>Concepts you  may or may not know</div>
+                            <div className={styles.boxheading}>Did you know?</div>
                             <div className={styles.boxcontent}>
-                                <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
+                            {News.map((item,key)=>{
+                                    if(key!=0){
+                                    return(
+                                    <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} />}<div className={styles.content}>{item[3]}</div></div>
+                                    )
+                                    }
+                                })}
+                                {/* <div className={styles.svgs}><Image src={p1} /> <div style={{ fontWeight: "500" }}>Pepper Content raised $14.3 M</div></div>
                                 <div className={styles.svgs}><Image src={p2} /> <div>Samudai web3 startup raised $2.5 M</div></div>
-                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div>
+                                <div className={styles.svgs}><Image src={p3} /> <div>Fintech startup Jiraaf raised $7.5M</div></div> */}
                             </div>
                         </div>
                     </div>

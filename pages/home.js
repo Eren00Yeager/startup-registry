@@ -17,8 +17,15 @@ const SpinnerComp=()=>{
 }
 
 const Main=()=>{
-    const [comp,setComp]=useState('')
+    const [comp,setComp]=useState('');
+    const [Key,setkey]=useState('');
+    const [News,setNews]=useState('');
     const [isLoading,setIsLoading]=useState(true)
+
+    // useEffect(() =>{
+        
+    // }, []);
+
 
     useEffect(() => {
         axios
@@ -32,8 +39,31 @@ const Main=()=>{
             console.log("error")
             console.log(err)
           });
-      }, []);
+          
+          axios.get("/api/keynumbers")
+          .then((e) => {
+            console.log(e.data)
+            setkey(e.data);
 
+          })
+          .catch((err)=>{
+            console.log("error")
+            console.log(err)
+          });
+
+          axios.get("/api/newstrack")
+          .then((e) => {
+            console.log(e.data)
+            setNews(e.data);
+
+          })
+          .catch((err)=>{
+            console.log("error")
+            console.log(err)
+          });
+
+      }, []);
+    
     return(
         <>
         {isLoading? <SpinnerComp/>:
@@ -46,7 +76,7 @@ const Main=()=>{
             </Row>
             <Container>
                 <Row style={{'padding':'3vh 0 3vh 0'}}>
-                    <Hometop/>
+                    <Hometop keynum={Key} News= {News}/>
                 </Row>  
             </Container>
             <Row style={{'padding':'3vh 0 3vh 0'}}>
