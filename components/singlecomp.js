@@ -17,7 +17,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Spinner } from "react-bootstrap";
-import SearchBar from '../components/SearchBar';
 
 
 export default function SingleComp(props) {

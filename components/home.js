@@ -1,7 +1,6 @@
-import {Homebottom,Homebottommobile} from "../components/homebottom";
+import {Homebottom,Homebottommobile} from "./homebottom";
 import styles from '../styles/Home.module.css';
-import SearchBar from "../components/SearchBar";
-import Hometop from "../components/hometop";
+import Hometop from "./hometop";
 import { Container,Row,Spinner } from "react-bootstrap";
 import { useState,useEffect } from "react";
 import axios from 'axios';

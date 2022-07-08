@@ -5,8 +5,8 @@ import Hometop from "../components/hometop";
 import { Container,Row,Spinner } from "react-bootstrap";
 import { useState,useEffect } from "react";
 import axios from 'axios';
-import Main from "./home";
-import SingleComp from "./singlecomp";
+import Main from "../components/home";
+import SingleComp from "../components/singlecomp";
 
 const SpinnerComp=()=>{
     return(
@@ -75,7 +75,7 @@ const Home=()=>{
                 <center><span className={styles.insidr}>insid<span style={{'color':'#432cce'}}>r</span></span></center>
             </Row>
             <Row style={{'padding':'3vh 0 3vh 0'}}>
-                <SearchBar comp={comp}/>
+                <SearchBar comp={comp} setSinglecomp={setSinglecomp}/>
             </Row>
             {
               !singlecomp?

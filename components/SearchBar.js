@@ -4,7 +4,7 @@ import Image from "next/image";
 import search from '../pic/search.svg';
 import searchStyles from "../styles/searchbar.module.css";
 
-const SearchBar = ({ comp }) => {
+const SearchBar = ({ comp,setSinglecomp }) => {
   const router = useRouter();
   const [companyToSearch, setCompanySearch] = useState("");
   const changedSearch = (event) => {
@@ -22,7 +22,9 @@ const SearchBar = ({ comp }) => {
     setCompanySearch(searchTerm);
     // our api to fetch the search result
     console.log(searchTerm);
-    router.push(`/${searchTerm}`);
+    const indComp=comp.find(x=>x.Name==searchTerm)
+    setSinglecomp(indComp);
+    setCompanySearch('')
   };
 
   function isValid(nameinDb, enteredName) {
