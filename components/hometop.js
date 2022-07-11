@@ -179,7 +179,7 @@ function Hometop({keynum, News}) {
                                     if(key!=0){
                                     return(
                                         
-                                    item[2] != "" && <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= { `http://drive.google.com/uc?export=view&id=${item[6].slice(32, 65)}` } height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= { `http://drive.google.com/uc?export=view&id=${item[6].slice(32, 65)}` } />}<div className={styles.content}>{item[2]}</div></div>
+                                    item[2] != "" && <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= { `https://drive.google.com/uc?export=view&id=${item[6].slice(32, 65)}` } height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= { `http://drive.google.com/uc?export=view&id=${item[6].slice(32, 65)}` } />}<div className={styles.content}>{item[2]}</div></div>
                                     )
                                     }
                                 })}
@@ -191,7 +191,7 @@ function Hometop({keynum, News}) {
                             {News.map((item,key)=>{
                                     if(key!=0){
                                     return(
-                                    item[3] != "" && <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= { `http://drive.google.com/uc?export=view&id=${item[7].slice(32, 65)}` } height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= { `http://drive.google.com/uc?export=view&id=${item[7].slice(32, 65)}` } />}<div className={styles.content}>{item[3]}</div></div>
+                                    item[3] != "" && <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= { `https://drive.google.com/uc?export=view&id=${item[7].slice(32, 65)}` } height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= { `http://drive.google.com/uc?export=view&id=${item[7].slice(32, 65)}` } />}<div className={styles.content}>{item[3]}</div></div>
                                     )
                                     }
                                 })}
