@@ -4,9 +4,6 @@ import Image from "next/image";
 import g1 from "../images/g1.svg";
 import g2 from "../images/g2.svg";
 import g3 from "../images/g3.svg";
-import p1 from "../images/p1.svg";
-import p2 from "../images/p2.svg";
-import p3 from "../images/p3.svg";
 import plus from "../images/plus.svg";
 import minus from "../images/minus.svg";
 
@@ -56,7 +53,7 @@ function Hometop({keynum, News}) {
         }
         else{
             if(isActive){
-                document.getElementById(styles.box).style= "height: 500px";
+                document.getElementById(styles.box).style= "height: 480px";
             }
             else{
                 document.getElementById(styles.box).style= "height:130px";    
@@ -104,7 +101,7 @@ function Hometop({keynum, News}) {
     }
 
     return (
-    <div>
+    <div className={styles.dummy}>
         <div className={styles.Border}>
             <div id= {styles.box}>
                 <div className={styles.g}>
@@ -151,21 +148,23 @@ function Hometop({keynum, News}) {
                             <div className={styles.boxheading}>Funding Tracker</div>
                             <div className={styles.boxcontent}>
                                 {News.map((item,key)=>{
+                                    
                                     if(key!=0){
                                     return(
-                                        <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} />}<div className={styles.content}>{item[0]}</div></div>
+                                        item[0] != "" && <div className={styles.svgs}> {windowSize.width > 1000 ? <img src= { `https://drive.google.com/uc?export=view&id=${item[4].slice(32, 65)}` } height={"30px"} width={"30px"} />:<img height={"20px"} width={"20px"} src= { `http://drive.google.com/uc?export=view&id=${item[4].slice(32, 65)}` } />}<div className={styles.content}>{item[0]}</div></div>
                                     )
                                     }
                                 })}
                             </div>
                         </div>
                         <div className={styles.b1}>
-                            <div className={styles.boxheading}>Startup of the Week</div>
+                            <div className={styles.boxheading}>Startups of the Week</div>
                             <div className={styles.boxcontent}>
                             {News.map((item,key)=>{
                                     if(key!=0){
                                     return(
-                                        <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"}  src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} />}<div className={styles.content}>{item[1]}</div></div>
+                                        item[1] != "" && <div className={styles.svgs}> {windowSize.width > 1000 ? <img src= { `https://drive.google.com/uc?export=view&id=${item[5].slice(32, 65)}`} height={"30px"} width={"30px"} />:<img height={"20px"} width={"20px"}  src= { `http://drive.google.com/uc?export=view&id=${item[5].slice(32, 65)}` } />}<div className={styles.content}>{item[1]}</div></div>
+                                        
                                     )
                                     }
                                 })}
@@ -179,7 +178,8 @@ function Hometop({keynum, News}) {
                             {News.map((item,key)=>{
                                     if(key!=0){
                                     return(
-                                    <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} />}<div className={styles.content}>{item[2]}</div></div>
+                                        
+                                    item[2] != "" && <div className={styles.svgs}> {windowSize.width > 1000 ? <img src= { `https://drive.google.com/uc?export=view&id=${item[6].slice(32, 65)}` } height={"30px"} width={"30px"} />:<img height={"20px"} width={"20px"} src= { `http://drive.google.com/uc?export=view&id=${item[6].slice(32, 65)}` } />}<div className={styles.content}>{item[2]}</div></div>
                                     )
                                     }
                                 })}
@@ -191,7 +191,7 @@ function Hometop({keynum, News}) {
                             {News.map((item,key)=>{
                                     if(key!=0){
                                     return(
-                                    <div className={styles.svgs}> {windowSize.width > 1000 ? <Image src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} height={"30px"} width={"30px"} />:<Image height={"20px"} width={"20px"} src= {key%3 == 0 ? p3 : key%3 == 1 ? p1 : p2} />}<div className={styles.content}>{item[3]}</div></div>
+                                    item[3] != "" && <div className={styles.svgs}> {windowSize.width > 1000 ? <img src= { `https://drive.google.com/uc?export=view&id=${item[7].slice(32, 65)}` } height={"30px"} width={"30px"} />:<img height={"20px"} width={"20px"} src= { `http://drive.google.com/uc?export=view&id=${item[7].slice(32, 65)}` } />}<div className={styles.content}>{item[3]}</div></div>
                                     )
                                     }
                                 })}
