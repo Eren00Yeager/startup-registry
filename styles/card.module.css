@@ -1,6 +1,6 @@
 @font-face {
   font-family: insidrFont;
-  src: url('../font/SFPRODISPLAYMEDIUM.OTF')  format('truetype');
+  src: url("../font/SFPRODISPLAYMEDIUM.OTF") format("truetype");
 }
 
 @media screen and (max-width: 500px) {
@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     margin: 2%;
-    width: 36.179vw;
+    width: 37.179vw;
 
     background-color: #d9d9d9;
     border: none;
@@ -75,6 +75,48 @@
     width: 100%;
     height: 5em;
     overflow: hidden;
+  }
+
+
+  /* Pagination starts here*/
+
+  .pageLink {
+    color: white;
+    background-color: rgba(67, 44, 206, 0.8);
+    padding: 0.4em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin: 1.5em;
+
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 3.155vw;
+
+    min-width: 5em;
+    border-radius: 7.23vw;
+    border: none;
+  }
+
+  .pageLink1 {
+    color: white;
+    background-color: rgba(67, 44, 206, 0.425);
+    padding: 0.4em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin: 1.5em;
+    justify-content: center;
+
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.155vw;
+
+    min-width: 5em;
+    border-radius: 7.23vw;
+    border: none;
   }
 }
 
@@ -152,6 +194,44 @@
     height: 4em;
     /* overflow: hidden;  */
   }
+
+  /* Pagination starts here*/
+
+  .pageLink {
+    color: white;
+    background-color: rgba(67, 44, 206, 0.8);
+    padding: 0.4em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin: 1.5em;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.085vw;
+
+    min-width: 5em;
+    border-radius: 1.23vw;
+    border: none;
+  }
+
+  .pageLink1 {
+    color: white;
+    background-color: rgba(68, 44, 206, 0.425);
+    padding: 0.4em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin: 1.5em;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.085vw;
+
+    min-width: 5em;
+    border-radius: 1.23vw;
+    border: none;
+  }
 }
 
 .colFlex {
@@ -181,11 +261,6 @@
 .paginationComp {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.pageLink {
-  background-color: #442ccec2;
-  color: white;
-  border-radius: 10px;
+  justify-content: center;
+  margin-top: 4%;
 }

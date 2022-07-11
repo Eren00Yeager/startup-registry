@@ -13,6 +13,7 @@ export default function AllCards({comp,setSinglecomp}) {
   const indexOfLastComp = currentPage * compsPerPage;
   const indexOfFirstComp = indexOfLastComp - compsPerPage;
   const currentComps = comp.slice(indexOfFirstComp, indexOfLastComp);
+  const lastPage = Math.ceil(comp.length / compsPerPage);
 
   const paginate = pageNumber => setCurrentPage(pageNumber);
 
@@ -24,8 +25,8 @@ export default function AllCards({comp,setSinglecomp}) {
           
 
             <Pagination 
-            compsPerPage={compsPerPage}
-            totalComps={comp.length}
+            lastPage={lastPage}
+            currPage={currentPage}
             paginate={paginate}
           /> 
          
