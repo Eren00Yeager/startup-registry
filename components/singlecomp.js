@@ -175,7 +175,7 @@ export default function SingleComp(props) {
                         <div className={S.r1}>
                             <div className={S.card1}>
                                 <div style={{ width: '100%', height: '100%' }}>
-                                    <Image
+                                    <img
                                         src={`https://drive.google.com/uc?export=view&id=${str}`}
                                         alt="Picture of the author"
                                         width={300}

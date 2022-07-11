@@ -23,7 +23,7 @@ const IndvCard = ({ data,setSinglecomp }) => {
     <div onClick={()=>setSinglecomp(data)}>
      <button className={styles.forButton}>
       <div className={styles.colFlex2}>
-      <Image
+      <img
     className={styles.forImage}
       src={`https://drive.google.com/uc?export=view&id=${str}`}
       alt="Picture of the author"
