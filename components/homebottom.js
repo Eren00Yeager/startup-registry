@@ -34,12 +34,12 @@ const Homebottom=({comp,setSinglecomp})=>{
     return(
         <Container>
             <Row>
-                <Col md={4} className={styles.leftcontainer}>
+                <Col md={3} className={styles.leftcontainer}>
                     <div>
                     <Row className={styles.headings}>
                         <center>Startups by sector</center>
                     </Row>
-                    <Container>
+                    <div>
                         {
                             sectors.map((sector,key)=>{
                                 return(
@@ -57,7 +57,7 @@ const Homebottom=({comp,setSinglecomp})=>{
                                 
                             })
                         }
-                    </Container>
+                    </div>
                     
                     </div>
                 </Col>
@@ -156,8 +156,8 @@ const Homebottommobile=({comp,setSinglecomp})=>{
                 </Row>
                 <Row className={styles2.headings}>
                     <div>&emsp;Companies  <br/>
-                        &emsp;<span className={styles.demo}><span style={{'fontWeight':'normal'}}>Sector : </span>{sector==''?'All':sector}</span>  
-                        &emsp;<span className={styles.demo}><span style={{'fontWeight':'normal'}}>Stage : </span>{stage==''?'All':stage}</span>
+                        &emsp;<span className={styles2.demo}><span style={{'fontWeight':'normal'}}>Sector : </span>{sector==''?'All':sector}</span>  
+                        &emsp;<span className={styles2.demo}><span style={{'fontWeight':'normal'}}>Stage : </span>{stage==''?'All':stage}</span>
                     </div>                
                 </Row>
                 <Row>

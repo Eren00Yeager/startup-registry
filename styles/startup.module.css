@@ -1,4 +1,7 @@
-@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+@font-face {
+    font-family: insidrFont;
+    src: url('../font/SFPRODISPLAYMEDIUM.OTF')  format('truetype');
+  }
 
 @media screen and (max-width:1300px) {
     .r1{
@@ -86,7 +89,7 @@
                 border-radius: 10px;
                 width: 100%;
                 padding: 5px;
-                font-family: 'SF Pro Display';
+                font-family: insidrFont;
                 font-style: normal;
                 font-weight: 600;
                 font-size: 15px;
@@ -112,7 +115,7 @@
                 }
                 .vt1{
                     /* width: 50%;  */
-                    font-family: 'SF Pro Display';
+                    font-family: insidrFont;
                     font-style: normal;
                     font-weight: 600;
                     font-size: 17px;
@@ -121,7 +124,7 @@
                     
                     }
                     .vt{
-                        font-family: 'SF Pro Display';
+                        font-family: insidrFont;
                     font-style: normal;
                     font-weight: 600;
                     font-size: 17px;
@@ -194,7 +197,7 @@
                     }
                     .y{
                         /* background-color: yellow; */
-                        font-family: 'SF Pro Display';
+                        font-family: insidrFont;
                         font-style: normal;
                         font-weight: 500;
                         font-size: 20px;
@@ -254,7 +257,7 @@
         /* background-color: pink; */
         width:25%;
         text-align: center;
-        font-family: 'SF Pro Display';
+        font-family: insidrFont;
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
@@ -313,7 +316,7 @@
     
     }
     .vt{
-        font-family: 'SF Pro Display';
+        font-family: insidrFont;
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
@@ -325,7 +328,7 @@
     
     .vt1{
         width: 50%; 
-        font-family: 'SF Pro Display';
+        font-family: insidrFont;
         font-style: normal;
         font-weight: 600;
         font-size: 40px;
@@ -353,7 +356,7 @@
         border-radius: 10px;
         width: 40%;
         padding: 5px;
-        font-family: 'SF Pro Display';
+        font-family: insidrFont;
         font-style: normal;
         font-weight: 600;
         font-size: 15px;
@@ -468,7 +471,7 @@
     padding: 5px 3px 4px 8px;
 }
 .hed{
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -477,7 +480,7 @@ line-height: 19px;
 color: #000000;
 }
 .key{
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -488,7 +491,7 @@ color: rgba(0, 0, 0, 0.62);
 font-weight: 700;
 font-size: 20px;
 padding-left:8px ;
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 }
 .m1{
@@ -506,7 +509,7 @@ font-style: normal;
 .st{
 background: rgba(67, 44, 206, 0.25);
 border-radius: 10px;
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 17px;
@@ -520,7 +523,7 @@ padding:5px 15px;
 .w{
 background: rgba(67, 44, 206, 0.8);
 border-radius: 10px;
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -544,7 +547,7 @@ text-decoration: none !important;
 .lin{
     background: rgba(67, 44, 206, 0.8);
 border-radius: 10px;
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -554,7 +557,7 @@ color: #FFFFFF;
 }
 
 .vt2{
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -574,7 +577,7 @@ row-gap: 20px;
 padding: 5px 5px;
 }
 .fat{
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
@@ -582,7 +585,7 @@ line-height: 26px;
 color: #383838;
 }
 .fct{
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -591,7 +594,7 @@ line-height: 21px;
 color: #383838;
 }
 .ft{
-    font-family: 'SF Pro Display';
+    font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
@@ -601,7 +604,7 @@ color: #383838;
 }
 
 .fdes{
-    font-family: 'SF Pro Display';
+    font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -610,7 +613,7 @@ color: rgba(56, 56, 56, 0.71);
 }
 
 .kt{
-    font-family: 'SF Pro Display';
+    font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
@@ -634,7 +637,7 @@ flex-direction: column;
 }
 
 .nm{
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -644,7 +647,7 @@ color: rgba(67, 44, 206, 0.85);
 padding:5px 20px;
 }
 .bil{
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
@@ -657,7 +660,7 @@ color: #383838;
 }
 .nm1{
    
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -684,7 +687,7 @@ padding-bottom: 10px;
 }
 .spd{
 
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -702,7 +705,7 @@ color: rgba(67, 44, 206, 0.85);
 .fn{
     
     
-    font-family: 'SF Pro Display';
+    font-family: insidrFont;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -722,7 +725,7 @@ color: rgba(67, 44, 206, 0.85);
 
 
 .boat{
-font-family: 'SF Pro Display';
+font-family: insidrFont;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
