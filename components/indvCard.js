@@ -27,8 +27,8 @@ const IndvCard = ({ data,setSinglecomp }) => {
     className={styles.forImage}
       src={`https://drive.google.com/uc?export=view&id=${str}`}
       alt="Picture of the author"
-      width={500}
-      height={500}
+      width={400}
+      height={400}
     />
       
         <div className={styles.Valuation}>{data.Valuation}</div>

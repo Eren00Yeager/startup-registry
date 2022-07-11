@@ -67,7 +67,7 @@ const Home=()=>{
         {(!comp || !Key || !News)? <SpinnerComp/>:
         <div style={{'backgroundColor':'#F5F5F5'}}>
             <Row style={{'padding':'3vh 0 3vh 0'}}>
-                <center><span className={styles.insidr}>insid<span style={{'color':'#432cce'}}>r</span></span></center>
+                <center><button className={styles.insidr} onClick={()=>setSinglecomp('')}>insid<span style={{'color':'#432cce'}}>r</span></button></center>
             </Row>
             <Row style={{'padding':'3vh 0 3vh 0'}}>
                 <SearchBar comp={comp} setSinglecomp={setSinglecomp}/>

@@ -4,8 +4,8 @@
   .colFlex2 {
     display: flex;
     flex-direction: column;
-    margin: 2vw;
-    width: 37.179vw;
+    margin: 2%;
+    width: 36.179vw;
 
     background-color: #d9d9d9;
     border: none;
