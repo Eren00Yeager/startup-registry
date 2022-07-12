@@ -160,7 +160,7 @@ const Homebottommobile=({comp,setSinglecomp})=>{
                         &emsp;<span className={styles2.demo}><span style={{'fontWeight':'normal'}}>Stage : </span>{stage==''?'All':stage}</span>
                     </div>                
                 </Row>
-                <Row>
+                <Row style={{'backgroundColor':'white','borderRadius':'0 0 10px 10px'}}>
                     <center><AllCards comp={companies} setSinglecomp={setSinglecomp}/></center>
                 </Row>
             </Container>

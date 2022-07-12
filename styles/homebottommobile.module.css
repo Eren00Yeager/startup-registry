@@ -9,10 +9,12 @@
 }
 
 .headings{
-    padding-top: 1vh;
+    margin-top: 1vh;
     padding-bottom: 1vh;
     font-size: 20px;
     font-weight: bold;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
 }
 
 .demo{
