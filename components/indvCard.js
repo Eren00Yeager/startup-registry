@@ -20,7 +20,7 @@ const IndvCard = ({ data, setSinglecomp }) => {
 
   return (
     <div onClick={() => setSinglecomp(data)}>
-      <button className={styles.forButton}>
+      <button className={styles.forButton}  style={{'backgroundColor':'white'}}>
         <div className={styles.colFlex2}>
             <img
               className={styles.forImage}
