@@ -22,12 +22,10 @@ const IndvCard = ({ data, setSinglecomp }) => {
     <div onClick={() => setSinglecomp(data)}>
       <button className={styles.forButton}>
         <div className={styles.colFlex2}>
-          <div>
             <img
               className={styles.forImage}
               src={`https://drive.google.com/uc?export=view&id=${str}`}
             />
-          </div>
           <div className={styles.Valuation}>{data.Valuation}</div>
           <div className={styles.headPtext}>{data.Name}</div>
           <p className={styles.pText}>{`${s}`}</p>

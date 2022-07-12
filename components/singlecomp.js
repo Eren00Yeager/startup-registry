@@ -1,22 +1,13 @@
-import Link from "next/link";
 import Image from 'next/image';
-// import { comp, isLoading } from './home.js';/
-import styles from '../styles/Home.module.css';
-import styled from 'styled-components';
 import iw from "../pic/web.svg";
 import il from "../pic/lin.svg";
 import tl from "../pic/tim.svg";
 import bl from "../pic/bl.svg";
-import fn from "../pic/fun.svg";
 import nav from "../pic/nav.svg";
 import dt from "../pic/dot.svg";
 import S from "../styles/startup.module.css";
-import tl2 from "../pic/tim2.svg";
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from 'react';
-import axios from 'axios';
-import { Spinner } from "react-bootstrap";
 
 
 export default function SingleComp(props) {

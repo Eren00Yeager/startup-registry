@@ -28,6 +28,8 @@ export default function AllCards({comp,setSinglecomp}) {
             lastPage={lastPage}
             currPage={currentPage}
             paginate={paginate}
+            setCurrentPage={setCurrentPage}
+            comp={comp}
           /> 
          
        </div>

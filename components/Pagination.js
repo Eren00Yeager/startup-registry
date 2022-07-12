@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/card.module.css";
 
-const Pagination = ({ lastPage, currPage, paginate }) => {
+const Pagination = ({ lastPage, currPage, paginate,setCurrentPage,comp }) => {
   // const pageNumbers = [];
 
   // for (let i = 1; i <= Math.ceil(totalComps / compsPerPage); i++) {
   //   pageNumbers.push(i);
   // }
+
+  useEffect(()=>{
+    setCurrentPage(1)
+  },[comp])
 
   return (
       <div className={styles.paginationComp}>
